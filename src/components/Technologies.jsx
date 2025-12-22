@@ -7,12 +7,12 @@ export default function Technologies(){
             <ButtonHeader title="Technologies"/>
         <section className="technologies">
 
-                <Technology title="Javascript" img={"public/img/javascript.png"}/>
-                <Technology title="HTML" img={"public/img/html.png"}/>
-                <Technology title="GIT" img={"public/img/git.png"}/>
-                <Technology title="CSS" img={"public/img/css.png"}/>
-                <Technology title="Tailwind" img={"public/img/tailwind.png"}/>
-                <Technology title="Github" img={"public/img/github.svg"}/>
+                <Technology title="Javascript" img={"/img/javascript.png"}/>
+                <Technology title="HTML" img={"/img/html.png"}/>
+                <Technology title="GIT" img={"/img/git.png"}/>
+                <Technology title="CSS" img={"/img/css.png"}/>
+                <Technology title="Tailwind" img={"/img/tailwind.png"}/>
+                <Technology title="Github" img={"/img/github.svg"}/>
         </section>
         </div>
     )

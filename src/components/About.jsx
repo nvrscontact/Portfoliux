@@ -6,9 +6,9 @@ export default function About(){
             <ButtonHeader title={"About me"}/>
         <section className="aboutMe">
 
-            <a href="public/utils/curriculum.pdf" target="_blank">
+            <a href="/utils/curriculum.pdf" target="_blank">
             View Curriculum
-            <img src="public/img/arrow_link.svg" alt="" /></a>
+            <img src="/img/arrow_link.svg" alt="" /></a>
         </section>
         </div>
     )

@@ -3,19 +3,19 @@ export default function Footer(){
         <footer>
             <nav>
                 <div>
-                    <img src="public/img/spain.svg" alt="" />
+                    <img src="/img/spain.svg" alt="" />
                     <span>Alicante, Spain</span>
                 </div>
                 <div>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nvrscontact@gmail.com"
                     target="_blank" rel="noopener noreferrer">
-                    <img src="public/img/email.svg" alt="" />
+                    <img src="/img/email.svg" alt="" />
                     </a>
                     <a href="https://www.linkedin.com/in/nvrscontact/">
-                    <img src="public/img/linkedin.svg" alt="" />
+                    <img src="/img/linkedin.svg" alt="" />
                     </a>
                     <a href="https://github.com/nvrscontact">
-                    <img src="public/img/github.svg" alt="" />
+                    <img src="/img/github.svg" alt="" />
                     </a>
                 </div>
             </nav>

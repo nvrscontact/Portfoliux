@@ -3,13 +3,13 @@ export default function Navbar(){
     <header class="navbar">
     <nav class="">
         <a href="https://rosettihotel.vercel.app">
-        <img src="public/img/building.svg" alt="" />
+        <img src="/img/building.svg" alt="" />
         </a>
         <a href="https://singerx.vercel.app">
-                <img src="public/img/song.svg" alt="" />
+                <img src="/img/song.svg" alt="" />
         </a>
         <a href="https://candiesx.vercel.app">
-        <img src="public/img/cupcake.svg" alt="" />
+        <img src="/img/cupcake.svg" alt="" />
         </a>
     </nav>
 </header> 
