@@ -6,7 +6,7 @@ export default function Services({}){
                       <ButtonHeader title={"Services"}/>
               <section className="list_design services">
                   <div>
-                      <h1>Web Development <span>+3yr</span></h1>
+                      <h1>Web Development <span>+1yr</span></h1>
                       <img src="/img/arrow_link.svg" alt="" />
                   </div>
                   <div>

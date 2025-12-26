@@ -1,8 +1,10 @@
+
 export default function ProjectCard({title,date,paragraph,photo,l1,l2,link,speSection, spePhoto }){
+
     return(
         <section className="projectCard" style={{height: speSection}}>
             <header>
-                <h1 className="animated_white_basic">{title}</h1>
+                <h1> <a href={link} className="animated_white_basic">{title}</a></h1>
                     <div>
                         <span className="lineDate"></span>
                         <span>{date}</span>

@@ -4,62 +4,12 @@
     padding:0;
     color: rgba(255,255,255,0.7);
     font-family: inter;
+    box-sizing:border-box;
 
 }
 
-.navbar{
-    border-bottom:1px solid rgba(255, 255, 255,0.2);
-    padding:15px 0;
-    
-    nav{
-        display: flex;
-        justify-content: center;
-        gap: 25px;
-    }
-    img{
-        width:21px;
-    }
-}
+/* RELUCIENT (ST) --------- */
 
-
-.buttonsTop{
-    display:flex;
-    justify-content: center;
-    margin-top: 10px;
-    gap: 10px;
-}
-
-.buttons{
-    background-color: rgba(255,255,255,0.1);
-    font-size: 9px;
-    color:rgb(255,255,255);
-    padding:8px 10px;
-    border-radius: 6px;
-    font-family: inter;
-    font-weight: 300;
-}
-
-
-.heroParagraph{    
-    font-family: inter;
-    text-align: center;
-    
-    h1{
-        font-weight: 100;
-        color:rgba(255,255,255,0.7);
-        font-size: 2.5rem;
-        word-spacing: 2px;
-        margin-top:35px;
-        margin-bottom:20px;
-    }
-
-    span{
-        font-weight:100;
-        color:white;
-    }
-}
-
-/*  Relucient White Animation */
 @keyframes moveGradient {
     0% { background-position: 200% 50%; }
     100% { background-position: 0% 50%; }
@@ -82,6 +32,78 @@
     animation: moveGradient 6s linear infinite;
 }
 
+/* BUTTON HEADER (ST) --------- */
+
+.buttonHeader{
+           border:1px solid rgba(255,255,255,0.2);
+        padding: 15px 30px;
+        font-weight: 300;
+        margin-bottom: 50px;
+        border-radius: 15px;
+        font-size: 20px;
+}
+
+
+
+
+
+/* ----- NAVBAR (C) --------- */
+.navbar{
+    border-bottom:1px solid rgba(255, 255, 255,0.2);
+    padding:15px 0;
+    
+    nav{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+    img{
+        width:21px;
+    }
+}
+
+/* ----- BUTTONS (SC) --------- */
+
+.buttonsTop{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 3px;
+}
+
+.buttons{
+    background-color: rgba(255,255,255,0.14);
+    font-size: 9px;
+    color:rgb(255,255,255);
+    padding:8px 10px;
+    border-radius: 6px;
+    font-family: inter;
+    font-weight: 300;
+}
+
+/* ----- HERO (C) --------- */
+
+.heroParagraph{    
+    font-family: inter;
+    text-align: center;
+    
+    h1{
+        font-weight: 100;
+        color:rgba(255,255,255,0.7);
+        font-size: 2.5rem;
+        word-spacing: 2px;
+        margin-top:35px;
+        margin-bottom:20px;
+    }
+
+    span{
+        font-weight:100;
+        color:white;
+    }
+}
+
+/* ----- PROJECT CARD (SC) --------- */
+
 .projectCard{
     border:1px solid rgba(255, 255, 255, 0.3);
     border-radius: 9px;
@@ -99,6 +121,10 @@
         font-size: 18px;
         font-weight: 300;
         margin-bottom: 4px;
+
+        a{
+            text-decoration: none;
+        }
     }
     span{
         font-size:12px;
@@ -147,6 +173,8 @@
 
 }
 
+/* ----- PROJECT CARD (C) --------- */
+
 .projectsCard{
     display:flex;
     flex-direction: row;
@@ -159,6 +187,7 @@
 }
 
 
+
 .bigText{
     text-align: center;
     margin: 150px 0;
@@ -166,6 +195,8 @@
         font-weight: 100;
     }
 }
+
+/* ----- TECHNOLOGY (SC) --------- */
 
 .technology{
     display: flex;
@@ -179,20 +210,15 @@
         height: 32px;
     }
 }
-.buttonHeader{
-           border:1px solid rgba(255,255,255,0.2);
-        padding: 15px 30px;
-        font-weight: 300;
-        margin-bottom: 50px;
-        border-radius: 15px;
-        font-size: 20px;
-}
+
 .center{
     display:flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+
+/* ----- ABOUT ME (C) --------- */
 
 .aboutMe{
     margin-bottom: 150px;
@@ -207,6 +233,8 @@
         height: 20px;
     }
 }
+
+/* ----- TECHNOLOGIES (C) --------- */
 
 .technologies{
     display:flex;
@@ -251,6 +279,7 @@
     height: 20px;
 }
 
+/* ----- FOOTER (C) --------- */
 
 footer{
     display:flex;
