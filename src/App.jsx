@@ -18,11 +18,13 @@ function App() {
      <ButtonsTop title1={"Frontend Development"} title2={"Visual Prototypes"} title3={"Using UX / UI Techniques"} />
      <HeroParagraph/>
      <ProjectsCards/>
+     <section className='homepage_separator'>
      <Text title={"Commintment"}/>
      <Languages/>
      <Technologies/>
      <About/>
      <Services/>
+     </section>
      <Footer/>
     </>
   )

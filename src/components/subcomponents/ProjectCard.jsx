@@ -1,6 +1,4 @@
-
 export default function ProjectCard({title,date,paragraph,photo,l1,l2,link,speSection, spePhoto }){
-
     return(
         <section className="projectCard" style={{height: speSection}}>
             <header>

@@ -1,4 +1,4 @@
-export default function Technology({title,img}){
+export default function Technology({title,img,height}){
     return(
            <div className="technology">
 

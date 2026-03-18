@@ -8,6 +8,13 @@
 
 }
 
+.homepage_separator{
+    display:flex;
+    flex-direction: column;
+    gap:130px;
+    margin:130px 0;
+}
+
 /* RELUCIENT (ST) --------- */
 
 @keyframes moveGradient {
@@ -190,7 +197,6 @@
 
 .bigText{
     text-align: center;
-    margin: 150px 0;
     h1{
         font-weight: 100;
     }
@@ -221,12 +227,16 @@
 /* ----- ABOUT ME (C) --------- */
 
 .aboutMe{
-    margin-bottom: 150px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    gap:40px;
     a{
         text-decoration: none;
         display:flex;
         align-items: center;
-        gap: 15px;
+        gap: 8px;
     }
 
     img{
@@ -242,7 +252,6 @@
     width: 300px;
     gap:20px;
     flex-wrap:wrap;
-    margin-bottom: 150px;
 }
 
 
@@ -250,7 +259,6 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 150px;
     gap:35px;
     width: 300px;
     padding: 0 20px;
@@ -326,4 +334,6 @@ footer{
         }
     }
 }
+
+
 
