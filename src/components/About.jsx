@@ -11,12 +11,28 @@ export default function About() {
                     <Technology title="Asana" img={"/img/asana.svg"} />
                     <Technology title="Trello" img={"/img/trello.svg"} />
                     <Technology title="Slack" img={"/img/slack.svg"} />
+                    <Technology title="Figma" img={"/img/figma.svg"} />
                 </section>
 
+                <ul>
+                    <li>Scrum and Kanban Metodologies</li>
+                    <li>Commitment to delivery</li>
+                    <li>Focus on the project</li>
+                    <li>Prototipes before starting the project</li>
+                </ul>
 
-                <a href="/utils/curriculum.pdf" target="_blank">
-                    View Curriculum
-                    <img src="/img/arrow_link.svg" alt="" /></a>
+
+                <a href="/utils/Spanish.pdf" target="_blank">
+                    <img src="/img/spain.svg" alt="" />
+                    Spanish Curriculum
+                    <img src="/img/arrow_link.svg" alt="" />
+                </a>
+                
+                <a href="/utils/English.pdf" target="_blank">
+                    <img src="/img/usa.svg" alt="" />
+                    English Curriculum
+                    <img src="/img/arrow_link.svg" alt="" />
+                </a>
             </section>
         </div>
     )

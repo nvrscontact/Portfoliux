@@ -4,20 +4,20 @@ export default function ProjectsCards(){
     return(
         <section className="projectsCard">
 
-        <ProjectCard title={"Artist Portfolio"} date={"February 2025"} 
-        photo={"/img/restaurant.webp"} 
+        <ProjectCard title={"Artist Website"} date={"January 2025"} 
+        photo={"/img/singerBG.jpg"} 
         paragraph={"View menus, schedules, events and make reservations to anybody"}
         l1={"/img/react.svg"} l2={"/img/css.png"} 
         link={"https://singingartist.vercel.app/"}/>
 
           <ProjectCard title={"Sokovia's Hotel"} date={"February 2025"} 
-        photo={"/img/restaurant.webp"} 
-        paragraph={"Social network with encrypted conversations and publications"}
+        photo={"/img/hotelBG.jpg"} 
+        paragraph={"View menus, schedules, events and make reservations"}
         l1={"/img/react.svg"} l2={"/img/css.png"} 
         link={"https://sokoviahotel.vercel.app/"} speSection={310} spePhoto={165} />
 
-          <ProjectCard title={"Candies Center"} date={"February 2025"} 
-        photo={"/img/restaurant.webp"} 
+          <ProjectCard title={"Candies Center"} date={"March 2025"} 
+        photo={"/img/candiesBG.jpg"} 
         paragraph={"Get training guides from personal trainers and view progress"}
         l1={"/img/react.svg"} l2={"/img/css.png"} 
         link={"https://candiesweb.vercel.app/"}/>

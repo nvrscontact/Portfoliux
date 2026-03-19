@@ -19,9 +19,10 @@ function App() {
      <HeroParagraph/>
      <ProjectsCards/>
      <section className='homepage_separator'>
-     <Text title={"Commintment"}/>
+     <Text title={"Commitment"}/>
      <Languages/>
      <Technologies/>
+     <Text title={"Focus"}/>
      <About/>
      <Services/>
      </section>
