@@ -6,7 +6,7 @@ export default function ProjectsCards(){
 
         <ProjectCard title={"Artist Website"} date={"January 2025"} 
         photo={"/img/singerBG.jpg"} 
-        paragraph={"View menus, schedules, events and make reservations to anybody"}
+        paragraph={"Listen favorites albums on available platforms and purchase albums"}
         l1={"/img/react.svg"} l2={"/img/css.png"} 
         link={"https://singingartist.vercel.app/"}/>
 
@@ -18,7 +18,7 @@ export default function ProjectsCards(){
 
           <ProjectCard title={"Candies Center"} date={"March 2025"} 
         photo={"/img/candiesBG.jpg"} 
-        paragraph={"Get training guides from personal trainers and view progress"}
+        paragraph={"Cupcakes and cakes, and make purchases"}
         l1={"/img/react.svg"} l2={"/img/css.png"} 
         link={"https://candiesweb.vercel.app/"}/>
 
