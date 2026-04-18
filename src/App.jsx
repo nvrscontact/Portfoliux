@@ -14,19 +14,21 @@ function App() {
 
   return (
     <>
-     <Navbar/>
-     <ButtonsTop title1={"Frontend Development"} title2={"Visual Prototypes"} title3={"Using UX / UI Techniques"} />
-     <HeroParagraph/>
-     <ProjectsCards/>
-     <section className='homepage_separator'>
-     <Text title={"Commitment"}/>
-     <Languages/>
-     <Technologies/>
-     <Text title={"Focus"}/>
-     <About/>
-     <Services/>
-     </section>
-     <Footer/>
+      <Navbar />
+      <ButtonsTop title1={"Frontend Development"} title2={"Visual Prototypes"} title3={"Using UX / UI Techniques"} />
+      <section id="grid">
+
+        <HeroParagraph />
+        <ProjectsCards />
+        <section className='special_phrases'><Text title={"Commitment"} /></section>
+        <Languages />
+        <Technologies />
+        <section className='special_phrases'><Text title={"Focus"} /></section>
+        <About />
+        <Services />
+
+      </section>
+      <Footer />
     </>
   )
 }

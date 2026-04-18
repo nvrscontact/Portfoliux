@@ -3,7 +3,7 @@ import Technology from "./subcomponents/Technology";
 
 export default function About() {
     return (
-        <div className="center">
+        <div className="aboutGrid center">
             <ButtonHeader title={"About me"} />
             <section className="aboutMe">
 
@@ -15,9 +15,9 @@ export default function About() {
                 </section>
 
                 <ul>
-                    <li>Managment of Scrum and Kanban Metodologies</li>
+                    <li>Be focused on the project to obtain a professional and detailed website.</li> 
+                    <li>Managment of Scrum and Kanban Metodologies</li> 
                     <li>Commitment to delivery</li>
-                    <li>Be focused on the project to obtain a professional and detailed website.</li>
                 </ul>
 
 
@@ -32,7 +32,7 @@ export default function About() {
                 </p>
 
                    <p> 
-                    <a href="/utils/Spanish.pdf" target="_blank">    
+                    <a href="/utils/English.pdf" target="_blank">    
                         <img src="/img/usa_flag.svg" alt="" />
                         <span>English CV</span>
                     </a>

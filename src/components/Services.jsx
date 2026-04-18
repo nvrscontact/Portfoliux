@@ -2,7 +2,7 @@ import ButtonHeader from "./subcomponents/ButtonHeader";
 
 export default function Services({ }) {
     return (
-        <div className="center">
+        <div className="services center">
             <ButtonHeader title={"Services"} />
             <section className="list_design services">
                 <div>

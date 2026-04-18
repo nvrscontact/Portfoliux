@@ -2,7 +2,7 @@ import ButtonHeader from "./subcomponents/ButtonHeader";
 
 export default function Languages() {
     return (
-        <div className="center">
+        <div className="languages center">
             <ButtonHeader title={"Languages"} />
             <section className="list_design">
                 <div>

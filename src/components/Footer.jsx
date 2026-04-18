@@ -21,8 +21,8 @@ export default function Footer(){
             </nav>
             <span className="separator"></span>
             <section>
-                <p>Create customer satisfaction to generate seller's action</p>
-                <p className="special_relucient">If you want to colaborate, write me and develop your idea</p>
+                <p className="special_relucient">Create customer satisfaction to generate seller's action 
+                <br />If you want to colaborate, write me and develop your idea</p>
                 <span>© Copyright 2026 Portfoliux</span>
             </section>
         </footer>
