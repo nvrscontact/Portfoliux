@@ -391,22 +391,43 @@ footer {
     }
 }
 
+/* Normal order Mobile First */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+/** even inside of each sec we can order each elements of those **/
+.two_sec {
+    order: 0;
+}
+
+.one_sec {
+    order: 1;
+}
+
+.three_sec {
+    order: 2;
+}
+
+.focus_order {
+    order: 3;
+}
+
 /** ----- RESPONSIVE ----- **/
 
-@media(min-width:1200px) { /** ----- Laptop ----- **/
+@media(min-width:1200px) {
 
     #grid {
         display: grid;
-        margin: 20px 30px;
+        margin: 10px 30px;
         grid-template-columns: repeat(3);
-        gap:40px 0;
         justify-content: center;
         align-items: start;
         grid-template-areas:
-            "Languages Paragraph About"
-            "Technologies Projects Services";
-        border:1px solid red;
-        
+            "one_sec two_sec three_sec"
+            "one_sec two_sec three_sec";
+        gap:20px;
     }
 
     .special_phrases {
@@ -414,33 +435,20 @@ footer {
     }
 
     .heroParagraph {
-        grid-area: Paragraph;
-        width:100%;
+        width: 100%;
     }
 
-    .projectsCard {
-        display: flex;
-        justify-content: center;
-        grid-area: Projects;
-        width: 700px;
+    .one_sec {
+        grid-area: one_sec;
     }
 
-    .aboutGrid {
-        grid-area: About;
-        text-align: center;
+    .two_sec {
+        grid-area: two_sec;
     }
 
-    .languages {
-        grid-area: Languages;
-    }
-
-
-    .technologies {
-        grid-area: Technologies;
-    }
-
-    .services {
-        grid-area: Services;
-    }
-
+    .three_sec {
+        grid-area: three_sec;
+    }       
 }
+
+
