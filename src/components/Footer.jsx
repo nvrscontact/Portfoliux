@@ -3,7 +3,7 @@ export default function Footer(){
         <footer>
             <nav>
                 <div>
-                    <img src="/img/spain.svg" alt="" />
+                    <img src="/img/spain_flag.svg" alt="" />
                     <span>Alicante, Spain</span>
                 </div>
                 <div>
@@ -12,10 +12,10 @@ export default function Footer(){
                     <img src="/img/email.svg" alt="" />
                     </a>
                     <a href="https://www.linkedin.com/in/nvrscontact/">
-                    <img src="/img/linkedin.svg" alt="" />
+                    <img src="/img/linkedin_logotipe.svg" alt="" />
                     </a>
                     <a href="https://github.com/nvrscontact">
-                    <img src="/img/github.svg" alt="" />
+                    <img src="/img/github_logotipe.svg" alt="" />
                     </a>
                 </div>
             </nav>
@@ -23,7 +23,7 @@ export default function Footer(){
             <section>
                 <p>Create customer satisfaction to generate seller's action</p>
                 <p className="special_relucient">If you want to colaborate, write me and develop your idea</p>
-                <span>© Copyright 2025 Portfoliux</span>
+                <span>© Copyright 2026 Portfoliux</span>
             </section>
         </footer>
     )

@@ -8,31 +8,39 @@ export default function About() {
             <section className="aboutMe">
 
                 <section className="technologies">
-                    <Technology title="Asana" img={"/img/asana.svg"} />
-                    <Technology title="Trello" img={"/img/trello.svg"} />
-                    <Technology title="Slack" img={"/img/slack.svg"} />
-                    <Technology title="Figma" img={"/img/figma.svg"} />
+                    <Technology title="Asana" img={"/img/asana_logotipe.svg"} />
+                    <Technology title="Trello" img={"/img/trello_logotipe.svg"} />
+                    <Technology title="Slack" img={"/img/slack_logotipe.svg"} />
+                    <Technology title="Figma" img={"/img/figma_logotipe.svg"} />
                 </section>
 
                 <ul>
-                    <li>Scrum and Kanban Metodologies</li>
+                    <li>Managment of Scrum and Kanban Metodologies</li>
                     <li>Commitment to delivery</li>
-                    <li>Focus on the project</li>
-                    <li>Prototipes before starting the project</li>
+                    <li>Be focused on the project to obtain a professional and detailed website.</li>
                 </ul>
 
 
-                <a href="/utils/Spanish.pdf" target="_blank">
-                    <img src="/img/spain.svg" alt="" />
-                    Spanish Curriculum
-                    <img src="/img/arrow_link.svg" alt="" />
-                </a>
-                
-                <a href="/utils/English.pdf" target="_blank">
-                    <img src="/img/usa.svg" alt="" />
-                    English Curriculum
-                    <img src="/img/arrow_link.svg" alt="" />
-                </a>
+                <p> 
+                    <a href="/utils/Spanish.pdf" target="_blank">    
+                        <img src="/img/spain_flag.svg" alt="" />
+                        <span>Spanish CV</span>
+                    </a>
+                    <a href="">
+                        <img src="/img/arrow_link.svg" alt="" />
+                    </a>
+                </p>
+
+                   <p> 
+                    <a href="/utils/Spanish.pdf" target="_blank">    
+                        <img src="/img/usa_flag.svg" alt="" />
+                        <span>English CV</span>
+                    </a>
+                    <a href="">
+                        <img src="/img/arrow_link.svg" alt="" />
+                    </a>
+                </p>
+            
             </section>
         </div>
     )
