@@ -7,39 +7,25 @@ export default function About() {
             <ButtonHeader title={"About me"} />
             <section className="aboutMe">
 
-                <section className="technologies">
-                    <Technology title="Asana" img={"/img/asana_logotipe.svg"} />
-                    <Technology title="Trello" img={"/img/trello_logotipe.svg"} />
-                    <Technology title="Slack" img={"/img/slack_logotipe.svg"} />
-                    <Technology title="Figma" img={"/img/figma_logotipe.svg"} />
-                </section>
-
                 <ul>
-                    <li>Be focused on the project to obtain a professional and detailed website.</li> 
-                    <li>Managment of Scrum and Kanban Metodologies</li> 
+                    <li>Good in team environments</li> 
+                    <li>Scrum and Kanban Metodologies</li> 
                     <li>Commitment to delivery</li>
+                    <li>Focused on the project</li>
+                    <li>Fast Learning</li>
                 </ul>
 
-
-                <p> 
-                    <a href="/utils/Spanish.pdf" target="_blank">    
-                        <img src="/img/spain_flag.svg" alt="" />
+                <section className="curriculums">
+                    <a href="/utils/Spanish.pdf" target="_blank">
                         <span>Spanish CV</span>
+                        <img src="/img/spain_flag.svg" alt="" />
                     </a>
-                    <a href="">
-                        <img src="/img/arrow_link.svg" alt="" />
-                    </a>
-                </p>
-
-                   <p> 
-                    <a href="/utils/English.pdf" target="_blank">    
-                        <img src="/img/usa_flag.svg" alt="" />
+                    <a href="/utils/English.pdf" target="_blank">
                         <span>English CV</span>
+                        <img src="/img/usa_flag.svg" alt="" />
                     </a>
-                    <a href="">
-                        <img src="/img/arrow_link.svg" alt="" />
-                    </a>
-                </p>
+                </section>
+
             
             </section>
         </div>

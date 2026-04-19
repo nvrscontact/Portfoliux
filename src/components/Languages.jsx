@@ -2,9 +2,9 @@ import ButtonHeader from "./subcomponents/ButtonHeader";
 
 export default function Languages() {
     return (
-        <div className="languages center">
+        <div className="center">
             <ButtonHeader title={"Languages"} />
-            <section className="list_design">
+            <section className="languages list_design">
                 <div>
                     <h1>Spanish <span>Native</span></h1>
                     <img src="/img/spain_flag.svg" alt="" />

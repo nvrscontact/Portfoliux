@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import Certifications from './components/Certifications'
 import Footer from './components/Footer'
 import HeroParagraph from './components/HeroParagraph'
 import Languages from './components/Languages'
@@ -12,22 +13,6 @@ import Text from './components/Text'
 
 function App() {
 
-  /* 
-    technologies - parrafo - about 
-    languages - projectos - services
-
-
-    orden normal:
-    parrafo
-    projectscards
-    commintment
-    languages
-    technologies
-    focus
-    about
-    services
-    */
-
 
   return (
     <>
@@ -38,6 +23,7 @@ function App() {
         <section className='one_sec'>
           <Technologies />
           <Languages />
+          <Certifications />
         </section>
 
         <section className='two_sec'>
