@@ -79,7 +79,7 @@
 }
 
 .buttons {
-    background-color: rgba(255, 255, 255, 0.14);
+    background-color: rgba(255, 255, 255, 0.080);
     font-size: 9px;
     color: rgb(255, 255, 255);
     padding: 8px 10px;
@@ -263,42 +263,26 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin-bottom: 160px;   
+    margin-bottom: 150px;   
 }
 
 /* ----- ABOUT ME (C) --------- */
 
-.aboutMe {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin-bottom: 160px;
-
-    a {
-        text-decoration: none;
-    }
-
-
-    ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        font-weight: 300;
-        text-align: center;
-    }
+.about_me_page {
 
     .curriculums {
         display: flex;
         align-items: center;
         justify-content: space-around;
+        gap:30px;
+        margin-top: 10px;
 
         a {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 10px;
+            text-decoration: none;
         }
 
         img {
@@ -461,10 +445,13 @@ footer {
         grid-area: three_sec;
         display: flex;
         flex-direction: column;
-        gap: 90px;
+        gap:80px;
     }
 
 
+    .technologies{
+        margin-bottom: 0px;
+    }
     .special_phrases {
         display: none;
     }

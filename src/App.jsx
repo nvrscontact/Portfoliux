@@ -17,13 +17,13 @@ function App() {
   return (
     <>
       <Navbar />
-      <ButtonsTop title1={"Frontend Development"} title2={"Visual Prototypes"} title3={"Using UX / UI Techniques"} />
+      <ButtonsTop title1={"Frontend Development"} title2={"UX / UI Techniques"} title3={"Backend Development"} />
       <section id="grid" className='contenedor'>
 
         <section className='one_sec'>
           <Technologies />
           <Languages />
-          <Certifications />
+         {/* <Certifications /> */}
         </section>
 
         <section className='two_sec'>

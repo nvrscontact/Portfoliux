@@ -5,15 +5,11 @@ export default function About() {
     return (
         <div className="aboutGrid center">
             <ButtonHeader title={"About me"} />
-            <section className="aboutMe">
+            <section className="technologies about_me_page">
 
-                <ul>
-                    <li>Good in team environments</li> 
-                    <li>Scrum and Kanban Metodologies</li> 
-                    <li>Commitment to delivery</li>
-                    <li>Focused on the project</li>
-                    <li>Fast Learning</li>
-                </ul>
+                <Technology title="Slack" img={"/img/slack_logotipe.svg"} />
+                <Technology title="Asana" img={"/img/asana_logotipe.svg"} />
+                <Technology title="Trello" img={"/img/trello_logotipe.svg"} heightImg={32} />
 
                 <section className="curriculums">
                     <a href="/utils/Spanish.pdf" target="_blank">
@@ -26,7 +22,7 @@ export default function About() {
                     </a>
                 </section>
 
-            
+
             </section>
         </div>
     )
