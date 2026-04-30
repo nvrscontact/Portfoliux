@@ -170,8 +170,10 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     }
 
+
     img {
-        width: 20px;
+        width: 24px;
+        height: 24px;
     }
 
     nav {
@@ -183,6 +185,7 @@
         ul {
             display: flex;
             gap: 10px;
+
         }
     }
 
@@ -206,6 +209,7 @@
 .bigText {
     text-align: center;
     margin-bottom: 160px;
+
     h1 {
         font-weight: 100;
     }
@@ -235,7 +239,7 @@
 
 .services {
     width: 300px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 160px;
@@ -246,9 +250,30 @@
 .languages {
     width: 300px;
     margin-bottom: 160px;
+
+    .curriculum_link {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        margin-bottom: 40px;
+    }
+
+    .curriculum_link a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+
+
+        img {
+            width: 32px;
+        }
+    }
+
 }
 
-.certifications{
+
+.certifications {
     width: 300px;
     margin-bottom: 160px;
     text-align: center;
@@ -263,32 +288,24 @@
     align-items: center;
     gap: 20px;
     flex-wrap: wrap;
-    margin-bottom: 150px;   
+    margin-bottom: 150px;
 }
 
 /* ----- ABOUT ME (C) --------- */
 
+
 .about_me_page {
+    text-align: center;
 
-    .curriculums {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        gap:30px;
-        margin-top: 10px;
-
-        a {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            text-decoration: none;
-        }
-
-        img {
-            width: 26px;
-        }
+    ul li{
+        list-style:none;
+        margin-bottom: 20px;
     }
+
+    img {
+        width: 50px;
+    }
+
 }
 
 
@@ -297,7 +314,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
     width: 300px;
     padding: 0 20px;
 
@@ -309,6 +325,7 @@
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
         font-size: 10px;
         padding-bottom: 15px;
+        margin-bottom: 6px;
 
         span {
             font-weight: 200;
@@ -431,7 +448,7 @@ footer {
         flex-direction: column;
         gap: 80px;
 
-        .technologies{
+        .technologies {
             margin-bottom: 0;
         }
     }
@@ -445,13 +462,14 @@ footer {
         grid-area: three_sec;
         display: flex;
         flex-direction: column;
-        gap:80px;
+        gap: 80px;
     }
 
 
-    .technologies{
+    .technologies {
         margin-bottom: 0px;
     }
+
     .special_phrases {
         display: none;
     }
@@ -485,7 +503,11 @@ footer {
         }
     }
 
-    .projectsCard, .languages, .services, .aboutMe, .certifications{
+    .projectsCard,
+    .languages,
+    .services,
+    .aboutMe,
+    .certifications {
         margin-bottom: 0;
     }
 

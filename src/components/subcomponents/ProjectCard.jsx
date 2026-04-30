@@ -1,4 +1,4 @@
-export default function ProjectCard({title,date,paragraph,photo,l1,l2,link,speSection, spePhoto }){
+export default function ProjectCard({title,date,paragraph,photo,l1,l2,l2_width,l3,link,speSection, spePhoto }){
     return(
         <section className="projectCard" style={{height: speSection}}>
             <header>
@@ -14,7 +14,9 @@ export default function ProjectCard({title,date,paragraph,photo,l1,l2,link,speSe
             <nav>
                 <ul>
                         <img src={l1} alt="" />
-                        <img src={l2} alt="" />
+                        <img src={l2} alt="" style={{width: l2_width || "26px", height: "26px"}} />
+                        {l3 ? <img src={l3} alt="" /> : null }
+                        
                 </ul>
 
                 <a href={link}>

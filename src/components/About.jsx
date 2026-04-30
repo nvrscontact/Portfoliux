@@ -9,19 +9,13 @@ export default function About() {
 
                 <Technology title="Slack" img={"/img/slack_logotipe.svg"} />
                 <Technology title="Asana" img={"/img/asana_logotipe.svg"} />
-                <Technology title="Trello" img={"/img/trello_logotipe.svg"} heightImg={32} />
+                <Technology title="Trello" img={"/img/trello_logotipe.svg"} />
 
-                <section className="curriculums">
-                    <a href="/utils/Spanish.pdf" target="_blank">
-                        <span>Spanish CV</span>
-                        <img src="/img/spain_flag.svg" alt="" />
-                    </a>
-                    <a href="/utils/English.pdf" target="_blank">
-                        <span>English CV</span>
-                        <img src="/img/usa_flag.svg" alt="" />
-                    </a>
-                </section>
-
+                <ul className="soft_skills">
+                <li>Knowledge about Scrum and Kanban methodologies</li>
+                <li>Attention to the global harmony and specially detail in UI components</li>
+                <li>Trying step-by-step improving UX of websites</li>
+                </ul>
 
             </section>
         </div>
