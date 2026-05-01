@@ -5,7 +5,7 @@ export default function Navbar(){
         <a href="https://sokoviahotel.vercel.app">
         <img src="/img/hotel_logo.svg" alt="" />
         </a>
-        <a href="https://singingartist.vercel.app">
+        <a href="https://singerstore.vercel.app">
         <img src="/img/song.svg" alt="" />
         </a>
         <a href="https://candiesweb.vercel.app">

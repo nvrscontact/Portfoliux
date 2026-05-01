@@ -12,7 +12,7 @@ export default function ProjectsCards() {
         l1={"/img/react_logotipe.svg"}
         l2={"/img/mysql_logotipe.svg"}
         l3={"/img/php_logotipe.svg"}
-        link={"https://singingartist.vercel.app/"} />
+        link={"https://singerstore.vercel.app/"} />
 
       <ProjectCard
         title={"Sokovia's Hotel"}
