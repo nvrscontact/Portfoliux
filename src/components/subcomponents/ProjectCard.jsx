@@ -1,16 +1,17 @@
-export default function ProjectCard({title,date,paragraph,photo,l1,l2,l2_width,l3,link,speSection, spePhoto }){
+export default function ProjectCard({title,date,paragraph,photo,l1,l2,l2_width,l3,link }){
     return(
-        <section className="projectCard" style={{height: speSection}}>
+        // se pasa el style porque sirve para aplicar estilos en lineas al elemento
+        <section className="projectCard">
             <header>
                 <h1> <a href={link} className="animated_white_basic">{title}</a></h1>
                     <div>
                         <span className="lineDate"></span>
-                        <span>{date}</span>
+                        <span className="date">{date}</span>
                         <span className="lineDate"></span>
                     </div>
                 <p>{paragraph}</p>
             </header>
-            <img className="imgPrincipal" style={{height: spePhoto}} src={photo} alt="" />
+            <img className="imgPrincipal" src={photo} alt="" />
             <nav>
                 <ul>
                         <img src={l1} alt="" />

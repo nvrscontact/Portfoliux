@@ -7,24 +7,21 @@ export default function Languages() {
             <section className="languages list_design">
                 <div>
                     <h1>Spanish <span>Native</span></h1>
-                    <img src="/img/spain_flag.svg" alt="" />
-                </div>
-                <section className="curriculum_link">
-                 <a href="/utils/Spanish.pdf" target="_blank">
-                        <img src="/img/arrow_right.svg" alt="" />
-                        <span>Revisar CV</span>
+
+                    <a href="/utils/Spanish.pdf" target="_blank">
+                        <img src="/img/spain_flag.svg" alt="" />
+                        <span>CV</span>
                     </a>
-                </section>
+                </div>
+           
                 <div>
                     <h1>English <span>B1</span></h1>
-                    <img src="/img/usa_flag.svg" alt="" />
-                </div>
-                <section className="curriculum_link">
-                     <a href="/utils/English.pdf" target="_blank">
-                        <img src="/img/arrow_right.svg" alt="" />
-                        <span>Check CV</span>
+                    <a href="/utils/English.pdf" target="_blank">
+                        <img src="/img/usa_flag.svg" alt="" />
+                        <span>CV</span>
                     </a>
-                </section>
+                </div>
+          
             </section>
         </div>
     )
