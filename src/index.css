@@ -20,10 +20,15 @@
     }
 }
 
+/* background con el tipo de gradiente, la inclinacion y los colores
+   el tamaño para que tenga mas variedad de colores en la transición y para que se adhiera al texto backgroud-clip*/
+
 .animated_white_basic {
     background: linear-gradient(30deg, #525252, #525252, #525252, #525252, #ffffff, #ffffff, #525252, #525252, #525252, #525252);
     background-size: 200% 100%;
     background-clip: text;
+
+
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: moveGradient 5s linear infinite;
@@ -47,7 +52,7 @@
     margin-bottom: 50px;
     border-radius: 15px;
     font-size: 20px;
-    background-color: rgba(128, 128, 128, 0.1);
+    background-color: rgba(106, 106, 106, 0.1);
 }
 
 
@@ -92,7 +97,7 @@
 }
 
 .buttons {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.15);
     font-size: 9px;
     color: rgb(255, 255, 255);
     padding: 8px 10px;
@@ -193,6 +198,11 @@
         height: 24px;
     }
 
+    .arrow_link {
+        width: 20px;
+        height: 20px;
+    }
+
     nav {
         display: flex;
         justify-content: space-between;
@@ -250,8 +260,9 @@
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.2);
+
 }
 
 .center {
@@ -291,11 +302,11 @@
 /* ----- TECHNOLOGIES (C) --------- */
 
 .technologies {
-    width: 300px;
+    width: 320px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
+    align-items: end;
+    gap: 15px;
     flex-wrap: wrap;
     margin-bottom: 150px;
 }
@@ -346,26 +357,54 @@
 
 }
 
+.technologies_icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+
+        img {
+            border: 1px solid rgb(183, 183, 183, 0.4);
+            padding: 14px;
+            height: 55px;
+            border-radius: 12px;
+        }
+    }
+
+    span {
+        font-size: 14px;
+    }
+}
+
 .about_me_component {
     margin-bottom: 180px;
 
-    img {
-        width: 40px;
-        height: 40px;
-    }
-
-    section:nth-of-type(2){
-        display:flex;
+    section:nth-of-type(2) {
+        background-color: rgb(226, 226, 226, 0.1);
+        display: flex;
         justify-content: center;
-        gap:16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
         margin-top: 30px;
-        width: 100%;
 
-        span{
-            background-color: rgb(226, 226, 226,0.1);
-            padding:12px 40px;
-            border-radius: 8px;
-            border:1px solid rgb(171, 171, 171,0.2);
+        padding: 12px 40px;
+        border-radius: 16px;
+        border: 1px solid rgb(171, 171, 171, 0.2);
+
+        p,
+        span {
+            background: none;
+        }
+
+        span {
+            font-size: 12px;
+            color: rgb(210, 210, 210, 0.7);
         }
     }
 
@@ -491,7 +530,7 @@ footer {
         }
     }
 
-    .about_me_component{
+    .about_me_component {
         margin-bottom: 0;
     }
 
@@ -536,7 +575,7 @@ footer {
 
     .buttons {
         font-size: 12px;
-        background-color: rgb(184, 184, 184,0.1);
+        background-color: rgb(184, 184, 184, 0.15);
         padding: 12px 20px;
         border-radius: 6px;
         font-family: inter;

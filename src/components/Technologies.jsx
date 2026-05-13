@@ -9,12 +9,12 @@ export default function Technologies() {
 
                 <Technology title="HTML" img={"/img/html_logotipe.png"} />
                 <Technology title="CSS" img={"/img/css_logotipe.png"} />
+                <Technology title="Javascript" img={"/img/js_logotipe.png"} heightImg={34} />
                 <Technology title="GIT" img={"/img/git_logotipe.png"} />
+                <Technology title="Tailwind" img={"/img/tailwind_logotipe.png"} heightImg={46} />
                 <Technology title="Java" img={"/img/java_logotipe.svg"} />
-                <Technology title="Mysql" img={"/img/mysql_logotipe.png"} heightImg={40} />
-                <Technology title="Javascript" img={"/img/js_logotipe.png"} heightImg={33} />
-                {/* <Technology title="Tailwind" img={"/img/tailwind_logotipe.png"} /> */}
-                <Technology title="React" img={"/img/react_logotipe.svg"} />
+                <Technology title="React" img={"/img/react_logotipe.svg"} heightImg={38} />
+                <Technology title="Mysql" img={"/img/mysql_logotipe.png"} heightImg={44} />
             </section>
         </div>
     )

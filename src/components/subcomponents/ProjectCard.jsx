@@ -20,8 +20,8 @@ export default function ProjectCard({title,date,paragraph,photo,l1,l2,l2_width,l
                         
                 </ul>
 
-                <a href={link}>
-                    <img src="/img/arrow_link.svg" alt="" />
+                <a href={link} >
+                    <img className="arrow_link" src="/img/arrow_link.svg" alt="" />
                 </a>
             </nav>
 

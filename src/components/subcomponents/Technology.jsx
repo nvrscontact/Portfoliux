@@ -1,10 +1,8 @@
 export default function Technology({title,img,heightImg}){
     return(
            <div className="technology">
-
-                <img src={img} alt="" style={{width: heightImg || "35px"}} />
+                <img src={img} alt="" style={{width: heightImg || "38px"}} />
                 <span>{title}</span>
-            
             </div>
     )
 }
