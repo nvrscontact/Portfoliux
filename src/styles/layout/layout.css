@@ -61,6 +61,7 @@
     width:900px;
     left:12%;
     top:-20%;
+    opacity:0.5;
 
     clip-path: polygon(
     0 0,        /* top-left */

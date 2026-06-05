@@ -1,11 +1,12 @@
 /* ----- PROJECT CARD (SC) --------- */
 
-.project_card--date{
+.project_card--date {
     text-align: center;
-    padding:25px 0;
-    opacity:0.8;
-    font-size:0.8rem;
+    padding: 25px 0;
+    opacity: 0.8;
+    font-size: 0.8rem;
 }
+
 .project_card--article {
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 9px;
@@ -14,9 +15,9 @@
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    background-color: rgb(24, 24, 24,0.1);
-    overflow:hidden;
-    box-shadow: 0 10px 20px rgb(19, 19, 19,0.7);
+    background-color: rgb(24, 24, 24, 0.1);
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgb(19, 19, 19, 0.7);
 
     header {
         margin: 12px 0 4px 0;
@@ -59,15 +60,16 @@
     nav {
         display: flex;
         justify-content: space-between;
-       background-color: rgb(24, 24, 24);
-        padding:9px;
-        border:1px solid rgba(255, 255, 255, 0.5);
-        border-bottom-left-radius:9px;
-        border-bottom-right-radius:9px;
+        background-color: rgb(24, 24, 24);
+        padding: 9px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+
         ul {
             display: flex;
             gap: 10px;
-            padding:0 4px;
+            padding: 0 4px;
         }
     }
 
@@ -83,12 +85,13 @@
     justify-content: center;
     padding: 0 10px;
     padding-bottom: 10px;
-/*    overflow-x: auto; */
+    /*    overflow-x: auto; */
     gap: 35px;
     align-items: center;
     margin-bottom: 160px;
 
     div:nth-of-type(2) {
+        margin-bottom:70px;
 
         section {
             height: 330px;
@@ -97,7 +100,6 @@
         .imgPrincipal {
             height: 180px;
         }
-        margin-bottom:70px;
     }
 }
 
