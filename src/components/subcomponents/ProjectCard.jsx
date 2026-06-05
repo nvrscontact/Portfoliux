@@ -1,23 +1,19 @@
-export default function ProjectCard({title,date,paragraph,photo,l1,l2,l2_width,l3,link }){
-    return(
+export default function ProjectCard({ top_date, bottom_date, title, date, paragraph, photo, l1, l2, l2_width, l3, link }) {
+    return (
         // se pasa el style porque sirve para aplicar estilos en lineas al elemento
-        <section className="projectCard">
+        <div className="project-card">
+            <p className="project_card--date">{top_date}</p>
+        <section className="project_card--article">
             <header>
-                <h1> <a href={link} className="animated_white_basic">{title}</a></h1>
-                    <div>
-                        <span className="lineDate"></span>
-                        <span className="date">{date}</span>
-                        <span className="lineDate"></span>
-                    </div>
+                <h1> <a href={link}>{title}</a></h1>
                 <p>{paragraph}</p>
             </header>
             <img className="imgPrincipal" src={photo} alt="" />
             <nav>
                 <ul>
-                        <img src={l1} alt="" />
-                        <img src={l2} alt="" style={{width: l2_width || "26px", height: "26px"}} />
-                        {l3 ? <img src={l3} alt="" /> : null }
-                        
+                    <img src={l1} alt="" />
+                    <img src={l2} alt="" style={{ width: l2_width || "26px", height: "26px" }} />
+                    {l3 ? <img src={l3} alt="" /> : null}
                 </ul>
 
                 <a href={link} >
@@ -26,5 +22,7 @@ export default function ProjectCard({title,date,paragraph,photo,l1,l2,l2_width,l
             </nav>
 
         </section>
+            <p className="project_card--date">{bottom_date}</p>
+        </div>
     )
 }

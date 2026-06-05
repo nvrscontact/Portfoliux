@@ -1,0 +1,43 @@
+/* ----- BUTTONS (SC) --------- */
+
+.buttonsTop {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 6px;
+}
+
+.buttons {
+    background-color: rgba(255, 255, 255, 0.15);
+    font-size: 9px;
+    color: rgb(255, 255, 255);
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-family: inter;
+    font-weight: 500;
+}
+
+/* ----- TECHNOLOGY (SC) --------- */
+
+.technology {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.2);
+
+}
+
+/* BUTTON HEADER CARDS (ST) --------- */
+
+.buttonHeader {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgba(106, 106, 106, 0.1);
+}
+

@@ -1,0 +1,238 @@
+/* ----- PROJECT CARD (SC) --------- */
+
+.project_card--date{
+    text-align: center;
+    padding:25px 0;
+    opacity:0.8;
+    font-size:0.8rem;
+}
+.project_card--article {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 9px;
+    width: 240px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    background-color: rgb(24, 24, 24,0.1);
+    overflow:hidden;
+    box-shadow: 0 10px 20px rgb(19, 19, 19,0.7);
+
+    header {
+        margin: 12px 0 4px 0;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: -1.5px;
+
+    }
+
+
+
+    p {
+        font-size: 0.9rem;
+        padding: 8px 10px;
+        font-weight: 500;
+        letter-spacing: -1px;
+
+    }
+
+    .imgPrincipal {
+        width: 100%;
+        height: 150px;
+    }
+
+
+    img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .arrow_link {
+        width: 20px;
+        height: 20px;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+       background-color: rgb(24, 24, 24);
+        padding:9px;
+        border:1px solid rgba(255, 255, 255, 0.6);
+        border-bottom-left-radius:9px;
+        border-bottom-right-radius:9px;
+        ul {
+            display: flex;
+            gap: 10px;
+            padding:0 4px;
+        }
+    }
+
+}
+
+
+
+
+/* ----- PROJECTS CARD (C) --------- */
+
+.projects-cards {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    padding-bottom: 10px;
+/*    overflow-x: auto; */
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 160px;
+
+    div:nth-of-type(2) {
+
+        section {
+            height: 330px;
+        }
+
+        .imgPrincipal {
+            height: 180px;
+        }
+        margin-bottom:70px;
+    }
+}
+
+
+/* SERVICES (C) */
+
+.services {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 160px;
+}
+
+.services div img {
+    height: 20px;
+}
+
+/* LANGUAGES (C) */
+
+.languages {
+    width: 300px;
+    margin-bottom: 160px;
+
+}
+
+
+/* ----- TECHNOLOGIES (C) --------- */
+
+.technologies {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+
+/* ----- ABOUT ME (C) --------- */
+
+
+
+
+
+.list_design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    padding: 0 20px;
+    gap: 30px;
+
+    div {
+
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        font-size: 10px;
+        padding-bottom: 15px;
+
+        span {
+            font-weight: 200;
+        }
+
+        img {
+            height: 25px;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+
+            span {
+                font-size: 20px;
+            }
+        }
+
+    }
+
+}
+
+.technologies_icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+
+        img {
+            border: 1px solid rgb(183, 183, 183, 0.4);
+            padding: 14px;
+            height: 55px;
+            border-radius: 12px;
+        }
+    }
+
+    span {
+        font-size: 14px;
+    }
+}
+
+.about_me_component {
+    margin-bottom: 180px;
+
+    section:nth-of-type(2) {
+        background-color: rgb(226, 226, 226, 0.1);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        margin-top: 30px;
+
+        padding: 12px 40px;
+        border-radius: 16px;
+        border: 1px solid rgb(171, 171, 171, 0.2);
+
+        p,
+        span {
+            background: none;
+        }
+
+        span {
+            font-size: 12px;
+            color: rgb(210, 210, 210, 0.7);
+        }
+    }
+
+}

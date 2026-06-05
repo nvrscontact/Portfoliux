@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --text-primary: #432c2c;
+}
+
+body{
+    max-width:1600px;
+    margin:0 auto;
+    color:var(--text-primary);
+    background-color: rgb(231, 231, 231);
+
+    a{
+        color:var(--text-primary);
+        text-decoration: none;
+    }
+}
+
+/* RELUCIENT (ST) --------- */
+
+
+@keyframes moveGradient {
+    0% {
+        background-position: 200% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* Focused text */ 
+.bigText {
+    text-align: center;
+    margin-bottom: 160px;
+    display:none;
+
+    h1 {
+        font-weight: 100;
+    }
+}
+
+
+
+
+/* background con el tipo de gradiente, la inclinacion y los colores
+   el tamaño para que tenga mas variedad de colores en la transición y para que se adhiera al texto backgroud-clip*/
+
+.animated_white_basic {
+    background: linear-gradient(30deg, #525252, #525252, #525252, #525252, #ffffff, #ffffff, #525252, #525252, #525252, #525252);
+    background-size: 200% 100%;
+    background-clip: text;
+
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: moveGradient 5s linear infinite;
+}
+
+.special_relucient {
+    background: linear-gradient(90deg, #6d6d6d, #6d6d6d, #6d6d6d, #6d6d6d, #c5c5c5, #6d6d6d, #6d6d6d, #6d6d6d, #6d6d6d);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: moveGradient 10s linear infinite;
+}
+

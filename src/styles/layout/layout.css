@@ -1,0 +1,230 @@
+/* ----- NAVBAR (C) --------- */
+.navbar-sec {
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 8rem;
+    background-color: rgb(36, 24, 24);
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    img {
+        width: 21px;
+    }
+
+    div:nth-of-type(1),
+    div:nth-of-type(3) {
+        img {
+            opacity: 0.7;
+        }
+    }
+}
+/* ----- HERO (C) --------- */
+
+.hero-sec{
+    margin-bottom:6rem;
+}
+
+.special_relucient {
+    background: linear-gradient(45deg, #3f3f3f, #3f3f3f, #3f3f3f, #3f3f3f, #c5c5c5, #3f3f3f, #3f3f3f, #3f3f3f, #3f3f3f);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-right:3px;
+}
+
+
+.hero-paragraph {
+    font-family: inter;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+
+    h1 {
+        font-weight:600;
+        font-size: 4rem;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        letter-spacing: -4.5px;
+}
+
+
+}
+
+
+/* ----- FOOTER (C) --------- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    text-align: center;
+    gap: 15px;
+    font-size: 12px;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+    }
+
+    img {
+        height: 24px;
+    }
+
+    .separator {
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    section {
+        font-size: 11px;
+
+        span {
+            color: #6d6d6d;
+        }
+
+        span {
+            font-size: 8px;
+        }
+
+        .special_relucient {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+/** ----- RESPONSIVE LAPTOP ----- **/
+
+/* 
+@media(min-width:1200px) {
+
+
+    #grid {
+        display: grid;
+        margin: 10px 30px;
+        grid-template-columns: repeat(3);
+        justify-content: center;
+        align-items: start;
+        grid-template-areas:
+            "one_sec two_sec three_sec"
+            "one_sec two_sec three_sec";
+        gap: 80px;
+    }
+
+
+    .projectCard {
+        width: 240px;
+
+        .imgPrincipal {
+            height: 160px;
+        }
+    }
+
+    .projectsCard {
+        gap: 25px;
+
+        h1 {
+            font-size: 22px;
+        }
+
+        div:nth-of-type(2) {
+
+            section {
+                height: 340px;
+            }
+
+            .imgPrincipal {
+                height: 185px;
+            }
+        }
+    }
+
+    .about_me_component {
+        margin-bottom: 0;
+    }
+
+
+    .one_sec {
+        grid-area: one_sec;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+
+        .technologies {
+            margin-bottom: 0;
+        }
+    }
+
+    .two_sec {
+        grid-area: two_sec;
+
+    }
+
+    .three_sec {
+        grid-area: three_sec;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+
+
+    .technologies {
+        margin-bottom: 0px;
+    }
+
+    .special_phrases {
+        display: none;
+    }
+
+    .navbar {
+        img {
+            width: 25px;
+        }
+    }
+
+    .buttons {
+        font-size: 12px;
+        background-color: rgb(184, 184, 184, 0.15);
+        padding: 12px 20px;
+        border-radius: 6px;
+        font-family: inter;
+        font-weight: 300;
+    }
+
+    .buttonsTop {
+        gap: 10px;
+    }
+
+    .heroParagraph {
+        width: 100%;
+        margin-bottom: 40px;
+
+        h1,
+        p {
+            font-size: 50px;
+        }
+    }
+
+    .projectsCard,
+    .languages,
+    .services,
+    .aboutMe,
+    .certifications {
+        margin-bottom: 0;
+    }
+
+}
+*/
