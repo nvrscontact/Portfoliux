@@ -6,7 +6,6 @@ export default function Technologies() {
         <div className="center">
             <ButtonHeader title="Technologies " />
             <section className="technologies">
-
                 <Technology title="HTML" img={"/img/html_logotipe.png"} />
                 <Technology title="CSS" img={"/img/css_logotipe.png"} />
                 <Technology title="Javascript" img={"/img/js_logotipe.png"} heightImg={34} />

@@ -1,20 +1,21 @@
 /* ----- BUTTONS (SC) --------- */
 
-.buttonsTop {
+.buttons-below-navbar {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-    gap: 6px;
-}
+    margin-top: 0.8rem;
+    margin-bottom: 5rem;
+    gap: 10px;
 
-.buttons {
-    background-color: rgba(255, 255, 255, 0.15);
-    font-size: 9px;
-    color: rgb(255, 255, 255);
-    padding: 8px 10px;
-    border-radius: 6px;
-    font-family: inter;
-    font-weight: 500;
+    span {
+        background-color: rgb(36, 23, 23,0.9);
+        color: white;
+        font-size: 12px;
+        padding: 10px 16px;
+        border-radius: 6px;
+        font-family: inter;
+        font-weight: 300;
+    }
 }
 
 /* ----- TECHNOLOGY (SC) --------- */
@@ -40,4 +41,3 @@
     font-size: 20px;
     background-color: rgba(106, 106, 106, 0.1);
 }
-

@@ -1,6 +1,7 @@
 export default function Navbar(){
     return (
     <header class="navbar-sec">
+        <a href=""></a>
         <nav class="">
                 <a href="">
                 <img src="/img/arrow_link.svg" alt="" />
@@ -12,7 +13,11 @@ export default function Navbar(){
                 <img src="/img/cupcake.svg" alt="" />
                 </a>
         </nav>
+        <p>
         <a href=""> <img src="/img/usa_flag.svg" alt="" /> </a>
-    </header> 
+        <span>US</span>
+        </p>
+    </header>
+    
     ) 
 }

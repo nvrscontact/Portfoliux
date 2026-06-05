@@ -11,10 +11,10 @@
 }
 
 body{
-    max-width:1600px;
+    max-width:1200px;
     margin:0 auto;
     color:var(--text-primary);
-    background-color: rgb(231, 231, 231);
+    background-color: #e7e7e7;
 
     a{
         color:var(--text-primary);
@@ -65,11 +65,12 @@ body{
 }
 
 .special_relucient {
-    background: linear-gradient(90deg, #6d6d6d, #6d6d6d, #6d6d6d, #6d6d6d, #c5c5c5, #6d6d6d, #6d6d6d, #6d6d6d, #6d6d6d);
+    background: linear-gradient(45deg, #6b1f30, #6b1f30, #6b1f30, #909090, #c5c5c5, #6b1f30, #6b1f30, #6b1f30, #6b1f30);
     background-size: 200% 100%;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: moveGradient 10s linear infinite;
+    padding-right:4px;
 }
 
