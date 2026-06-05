@@ -2,14 +2,14 @@ import ProjectCard from "./subcomponents/ProjectCard";
 
 export default function Projects() {
   return (
-    <section className="projects-cards">
+    <section className="projects_cards">
 
       <div>
         <ProjectCard
           title={"Artist Website"}
           bottom_date={"January 2025"}
           photo={"/img/artistBackground.jpg"}
-          paragraph={"Listen favorites albums on platforms with links, buy albums and view next conerts"}
+          paragraph={"Listen favorites albums on platforms with links, buy albums and view date of next conerts"}
           l1={"/img/react_logotipe.svg"}
           l2={"/img/mysql_logotipe.png"}
           l3={"/img/php_logotipe.svg"}

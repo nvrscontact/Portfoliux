@@ -15,7 +15,7 @@ export default function Navbar(){
         </nav>
         <p>
         <a href=""> <img src="/img/usa_flag.svg" alt="" /> </a>
-        <span>US</span>
+        <span>EN</span>
         </p>
     </header>
     

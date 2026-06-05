@@ -1,8 +1,11 @@
-export default function Technology({title,img,heightImg}){
+export default function Technology({title,img,heightImg,category}){
     return(
-           <div className="technology">
-                <img src={img} alt="" style={{width: heightImg || "38px"}} />
-                <span>{title}</span>
+           <div className="descriptive-img">
+                <img src={img} alt="" style={{width: heightImg || "60px"}} />
+                <section>
+                <h4>{title}</h4>
+                <span>{category}</span>
+                </section>
             </div>
     )
 }

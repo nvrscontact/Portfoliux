@@ -2,8 +2,9 @@ export default function ProjectCard({ top_date, bottom_date, title, date, paragr
     return (
         // se pasa el style porque sirve para aplicar estilos en lineas al elemento
         <div className="project-card">
-            <p className="project_card--date">{top_date}</p>
-        <section className="project_card--article">
+            <p className="project-card__date">{top_date}</p>
+        <section className="project-card__article">
+                <span className="project-card__article--border-top"></span>
             <header>
                 <h1> <a href={link}>{title}</a></h1>
                 <p>{paragraph}</p>
@@ -22,7 +23,7 @@ export default function ProjectCard({ top_date, bottom_date, title, date, paragr
             </nav>
 
         </section>
-            <p className="project_card--date">{bottom_date}</p>
+            <p className="project-card__date">{bottom_date}</p>
         </div>
     )
 }

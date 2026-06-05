@@ -2,27 +2,36 @@ import ButtonHeader from "./subcomponents/ButtonHeader";
 
 export default function Languages() {
     return (
-        <div className="center">
-            <ButtonHeader title={"Languages"} />
-            <section className="languages list_design">
-                <div>
-                    <h1>Spanish <span>Native</span></h1>
+        <div className="languages-sec">
+                <ButtonHeader title={"Languages"} />
 
-                    <a href="/utils/Spanish.pdf" target="_blank">
+                <div className="languages-sec__cards">
+
+                <section>
+                    <a href="/utils/Spanish.pdf">Ver CV <img src="/img/arrow_link.svg" alt="" />  </a>
+                    <div className="descriptive-img descriptive-img__modified">
+                        <section>
+                            <h4>Spanish</h4>
+                            <span>Native Speaker</span>
+                        </section>
                         <img src="/img/spain_flag.svg" alt="" />
-                        <span>CV</span>
-                    </a>
-                </div>
-           
-                <div>
-                    <h1>English <span>B1</span></h1>
-                    <a href="/utils/English.pdf" target="_blank">
+                    </div>
+                </section>
+
+                <section>
+                    <a href="/utils/English.pdf"> View CV<img src="/img/arrow_link.svg" alt="" /> </a>
+                    <div className="descriptive-img descriptive-img__modified">
+                        <section>
+                            <h4>English</h4>
+                            <span>B1 Level</span>
+                        </section>
                         <img src="/img/usa_flag.svg" alt="" />
-                        <span>CV</span>
-                    </a>
+                    </div>
+                </section>
+
+                             
                 </div>
-          
-            </section>
+
         </div>
     )
 }

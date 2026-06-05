@@ -2,27 +2,8 @@ import ButtonHeader from "./subcomponents/ButtonHeader";
 
 export default function About() {
     return (
-        <div className="aboutGrid center about_me_component">
-            <ButtonHeader title={"About me"} />
-            <section className="technologies_icon">
-                <div>
-                    <img src="/img/asana_logotipe.svg" alt="" />
-                    <span>Asana</span>
-                </div>
-                <div>
-                    <img src="/img/trello_logotipe.svg" alt="" />
-                    <span>Trello</span>
-                </div>
-                        <div>
-                    <img src="/img/slack_logotipe.svg" alt="" />
-                    <span>Slack</span>
-                </div>
-            </section>
-
-            <section>
-                <p>Kanban & Scrum</p>
-                <span>agile methodologies</span>
-            </section>
+        <div className="about-me-sec">
+           <p><b> My purpouse is achieve your objective, <span>help to you in your growth;</span> <br /> With <span>+1 year of experience </span> developing Frontend Applications <br /> with React.js, focusing on UX best practices, <span>REST APIs integration </span><br /> and scalable application architecture.</b></p>
         </div>
     )
 }

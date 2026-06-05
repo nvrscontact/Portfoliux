@@ -11,7 +11,7 @@
 }
 
 body{
-    max-width:1200px;
+    max-width:1300px;
     margin:0 auto;
     color:var(--text-primary);
     background-color: #e7e7e7;
@@ -65,7 +65,7 @@ body{
 }
 
 .special_relucient {
-    background: linear-gradient(45deg, #6b1f30, #6b1f30, #6b1f30, #ae3e3e, rgb(255, 162, 162), #6b1f30, #6b1f30, #6b1f30, #6b1f30);
+    background: linear-gradient(45deg, #6b1f30, #6b1f30, #6b1f30, #ae3e3e, #c77d7d, #6b1f30, #6b1f30, #6b1f30, #6b1f30);
     background-size: 200% 100%;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,6 +73,8 @@ body{
     animation: moveGradient 10s linear infinite;
     padding-right:4px;
 }
+
+
 
 
 

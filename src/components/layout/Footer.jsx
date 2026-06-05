@@ -1,28 +1,31 @@
-export default function Footer(){
-    return(
-        <footer>
+export default function Footer() {
+    return (
+        <footer className="footer-sec">
             <nav>
-                <div>
-                    <img src="/img/spain_flag.svg" alt="" />
-                    <span>Alicante, Spain</span>
-                </div>
-                <div>
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nvrscontact@gmail.com"
-                    target="_blank" rel="noopener noreferrer">
-                    <img src="/img/email.svg" alt="" />
-                    </a>
+                <p>
                     <a href="https://www.linkedin.com/in/nvrscontact/">
-                    <img src="/img/linkedin_logotipe.svg" alt="" />
+                        View Profile
+                        <img src="/img/linkedin.svg" alt="" />
                     </a>
+                </p>
+                <p>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nvrscontact@gmail.com"
+                        target="_blank" rel="noopener noreferrer">
+                        Send a messaage
+                        <img src="/img/email.svg" alt="" />
+                    </a>
+                </p>
+
+                <p>
                     <a href="https://github.com/nvrscontact">
-                    <img src="/img/github_logotipe.svg" alt="" />
+                        View Projects
+                        <img src="/img/github.svg" alt="" />
                     </a>
-                </div>
+                </p>
             </nav>
-            <span className="separator"></span>
             <section>
-                <p className="special_relucient">Create customer satisfaction to generate seller's action 
-                <br />If you want to colaborate, write me and develop your idea</p>
+                <p>Create customer satisfaction to generate seller's action,
+                    if you want to colaborate, write me and develop your idea</p>
                 <span>© Copyright 2026 Portfoliux</span>
             </section>
         </footer>
