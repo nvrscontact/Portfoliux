@@ -32,8 +32,6 @@ export default function Languages() {
                         <a href="/utils/English.pdf"> View English CV<img src="/img/arrow_link.svg" alt="" /> </a>
                     </div>
                 </section>
-
-
             </div>
 
         </div>

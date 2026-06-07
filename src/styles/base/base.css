@@ -17,7 +17,7 @@ body{
     background-color: #e7e7e7;
 
     a{
-        color:var(--text-primary);
+        color:black;
         text-decoration: none;
     }
 }

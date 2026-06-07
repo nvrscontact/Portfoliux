@@ -3,7 +3,8 @@ import HeaderBtn from "./subcomponents/HeaderBtn";
 export default function About() {
     return (
         <div className="about-me-sec">
-           <p><b> My purpouse is achieve your objective, <span>help to you in your growth;</span> <br /> With <span>+1 year of experience </span> developing Frontend Applications <br /> with React.js, focusing on UX best practices, <span>REST APIs integration </span><br /> and scalable application architecture.</b></p>
+            <img className="about-me-sec__bg-behind" src="/img/bg_one.jpg" alt="" />
+           <p><b> My purpose is to help you achieve your goals, <span>and support your growth;</span> <br /> With <span> over 1 year of experience </span> developing frontend applications <br /> with React.js, scalable and user-friendly solutions, <span>focusing on UX</span> <br /> best practices, <span>REST APIs integration </span> and maintainable <br /> application architecture.</b></p>
         </div>
     )
 }

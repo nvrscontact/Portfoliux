@@ -28,8 +28,7 @@ function App() {
           <Technologies />
         </section>
 
-        <section className='homepage-two-columns'>
-        <div></div>
+        <section>
         <About />
         </section>
 

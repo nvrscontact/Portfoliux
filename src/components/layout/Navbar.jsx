@@ -1,5 +1,7 @@
 export default function Navbar(){
     return (
+    <div>
+
     <header class="navbar-sec">
         <a href=""></a>
         <nav class="">
@@ -18,6 +20,8 @@ export default function Navbar(){
         <span>EN</span>
         </p>
     </header>
+    <section className="promotions_header__shadow"></section>
+    </div>
     
     ) 
 }
