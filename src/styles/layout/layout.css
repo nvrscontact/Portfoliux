@@ -7,7 +7,7 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     color: rgb(255, 255, 255, 0.7);
-    background-color: #231616;
+    background-color: #1f1111;
     border: 1px solid #432c2c;
 
     nav {
@@ -50,6 +50,7 @@
         margin-top: 35px;
         margin-bottom: 20px;
         letter-spacing: -5px;
+        color:var(--text-primary);
     }
 
 
@@ -60,9 +61,9 @@
     z-index: -1;
     height: 600px;
     width: 900px;
-    left: 12%;
+    left: 15%;
     top: -50%;
-    opacity: 0.5;
+    opacity: 0.3;
 
     clip-path: polygon(0 0,
             /* top-left */
@@ -79,7 +80,7 @@
 
 .homepage-two-columns {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     margin-bottom: 300px;
 }

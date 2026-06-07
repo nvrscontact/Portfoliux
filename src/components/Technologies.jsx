@@ -1,10 +1,11 @@
-import ButtonHeader from "./subcomponents/ButtonHeader";
+import HeaderBtn from "./subcomponents/HeaderBtn";
 import Technology from "./subcomponents/Technology";
 
 export default function Technologies() {
     return (
         <div className="technologies_sec">
-            <ButtonHeader title="Technologies" />
+            <img className="technologies_sec--img-behind" src="/img/card_dots.svg" alt="" />
+            <HeaderBtn title="Technologies" />
             <section className="technologies_sec--article">
                 <Technology title="HTML" img={"/img/html_logotipe.png"} category={"Frontend"} />
                 <Technology title="CSS" img={"/img/css_logotipe.png"} category={"Frontend"} />

@@ -3,8 +3,8 @@ export default function Navbar(){
     <header class="navbar-sec">
         <a href=""></a>
         <nav class="">
-                <a href="">
-                <img src="/img/arrow_link.svg" alt="" />
+                 <a href="https://sokoviahotel.vercel.app">
+                <img src="/img/hotel_logo.svg" alt="" />
                 </a>
                 <a href="https://singerstore.vercel.app">
                 <img src="/img/song.svg" alt="" />

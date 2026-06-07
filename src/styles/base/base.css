@@ -13,7 +13,7 @@
 body{
     max-width:1300px;
     margin:0 auto;
-    color:var(--text-primary);
+    color:rgb(40, 40, 40);
     background-color: #e7e7e7;
 
     a{
@@ -57,8 +57,6 @@ body{
     background: linear-gradient(30deg, #525252, #525252, #525252, #525252, #ffffff, #ffffff, #525252, #525252, #525252, #525252);
     background-size: 200% 100%;
     background-clip: text;
-
-
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: moveGradient 5s linear infinite;
@@ -74,7 +72,4 @@ body{
     padding-right:4px;
 }
 
-
-
-
-
+    

@@ -1,4 +1,4 @@
-import ButtonHeader from "./subcomponents/ButtonHeader";
+import HeaderBtn from "./subcomponents/HeaderBtn";
 
 export default function About() {
     return (

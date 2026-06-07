@@ -20,34 +20,37 @@ function App() {
       <ButtonsTop title1={"Frontend Development"} title2={"UX / UI Techniques"} title3={"Backend Development"} />
       <section>
 
-        
-          <Hero />
-          <Projects />
 
-          <section className='homepage-two-columns'>
+        <Hero />
+        <Projects />
 
+        <section className='homepage-two-columns'>
           <Technologies />
-          <About />
-          </section>
-          
-          <section className='homepage-two-columns'>
+        </section>
 
-          <div></div>
+        <section className='homepage-two-columns'>
+        <div></div>
+        <About />
+        </section>
+
+        <section className='homepage-two-columns'>
+
           <Languages />
+          <div></div>
 
-          </section>
-          
-          <section className='homepage-two-columns'>
+        </section>
 
+        <section className='homepage-two-columns'>
+
+          <div></div>
           <Experience />
-          <div></div>
-          </section>
+        </section>
 
-          <section className='homepage-two-columns'>
+        <section className='homepage-two-columns'>
 
-          <div></div>
           <Certifications />
-          </section>
+          <div></div>
+        </section>
 
         <section className='special_phrases commitment_order'><Text title={"Commitment"} /></section>
         <section className='special_phrases focus_order'><Text title={"Focus"} /></section>

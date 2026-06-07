@@ -8,15 +8,15 @@
     gap: 10px;
 
     span {
-        border:1px solid rgb(86, 35, 35,0.3);
+        border: 1px solid rgb(86, 35, 35, 0.8);
         color: rgb(86, 35, 35);
-        background-color:rgb(207, 201, 201);
+        background-color: rgb(207, 201, 201);
         font-size: 12px;
         padding: 10px 16px;
         border-radius: 6px;
         font-family: inter;
         font-weight: 600;
-        letter-spacing:-0.5px;
+        letter-spacing: -0.5px;
     }
 }
 
@@ -25,13 +25,23 @@
 
 /* BUTTON HEADER CARDS (ST) --------- */
 
-
+.header-btn {
+    padding-bottom: 60px;
+    letter-spacing: -1px;
+    text-align: center;
+    font-size: 2.8rem;
+    background: linear-gradient(30deg, #525252, #525252, #525252, #b5b5b5, #525252, #525252, #525252, #525252, #525252, #525252);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 
 
 
 /* contacts button */
 
-.button-social{
+.button-social {
     border-radius: 10px;
-    
+
 }
