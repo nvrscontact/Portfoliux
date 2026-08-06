@@ -1,0 +1,48 @@
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+    margin-bottom: 2em;
+
+    img {
+        width: 1.5em;
+    }
+
+    section p {
+        margin-bottom: 1em;
+    }
+
+    section span {
+        color: rgba(60, 60, 60, 0.7);
+        font-size: 0.8em;
+    }
+
+    ul {
+        list-style: none;
+        display:flex;
+        align-items: end;
+        gap: 2em;
+    }
+
+    ul li a{
+        display:flex;
+        align-items: center;
+        gap:1em;
+        background-color: rgb(30, 30, 30);
+        color:white;
+        padding:1em 2em;
+        border-radius: 0.8em;
+    }
+
+    ul li:nth-of-type(2) a{
+        box-shadow: inset 1px 5px 20px rgb(207, 207, 207);
+        border: 1px solid rgb(60, 60, 60);
+    }
+    ul li:nth-of-type(2){
+        margin-bottom: 1em;
+    }
+
+}

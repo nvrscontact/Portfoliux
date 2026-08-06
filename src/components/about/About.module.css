@@ -1,0 +1,12 @@
+.aboutMe{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: end;
+    line-height: 1.5;
+    gap:2em;
+    span{
+        color:rgba(47, 47, 47, 0.8);
+        font-weight: 400;
+    }
+}

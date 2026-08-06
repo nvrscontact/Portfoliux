@@ -63,7 +63,7 @@ body{
 }
 
 .special_relucient {
-    background: linear-gradient(45deg, #6b1f30, #6b1f30, #6b1f30, #ae3e3e, #c77d7d, #6b1f30, #6b1f30, #6b1f30, #6b1f30);
+    background: linear-gradient(45deg, #151515, #151515, #151515, #151515, #a7a7a7, #151515, #151515, #151515, #151515);
     background-size: 200% 100%;
     background-clip: text;
     -webkit-text-fill-color: transparent;

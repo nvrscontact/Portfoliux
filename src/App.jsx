@@ -1,15 +1,15 @@
 import './styles/App.css'
-import About from './components/About'
-import Footer from './components/layout/Footer'
-import Hero from './components/layout/Hero'
-import Languages from './components/Languages'
-import Navbar from './components/layout/Navbar'
+import About from './components/about/About'
 import Projects from './components/Projects'
-import Experience from './components/Experience'
-import Certifications from './components/Certifications'
-import ButtonsTop from './components/subcomponents/ButtonsTop'
-import Technologies from './components/Technologies'
 import Text from './components/Text'
+import Footer from './components/footer/Footer'
+import Hero from './components/hero/Hero'
+import Navbar from './components/navbar/Navbar'
+import Technologies from './components/technologies/Technologies'
+import Languages from './components/languages/Languages'
+import Mockup from './components/mockup/Mockup'
+import Experience from './components/experience/Experience'
+import Certifications from './components/certifications/Certifications'
 
 function App() {
 
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <ButtonsTop title1={"Frontend Development"} title2={"UX / UI Techniques"} title3={"Backend Development"} />
+      
       <section>
 
 
@@ -26,29 +26,18 @@ function App() {
 
         <section className='homepage-two-columns'>
           <Technologies />
-        </section>
-
-        <section>
-        <About />
+          <About />
         </section>
 
         <section className='homepage-two-columns'>
-
+          <Mockup/>
           <Languages />
-          <div></div>
-
-        </section>
-
-        <section className='homepage-two-columns'>
-
-          <div></div>
-          <Experience />
         </section>
 
         <section className='homepage-two-columns'>
 
           <Certifications />
-          <div></div>
+          <Experience />
         </section>
 
         <section className='special_phrases commitment_order'><Text title={"Commitment"} /></section>

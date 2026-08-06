@@ -1,0 +1,23 @@
+.certificationsContainer{
+    
+    header{
+        display:flex;
+        align-items: start;
+        gap:1em;
+        margin-bottom: 1em;
+    }
+    header img{
+        width: 2em;
+        height: 2em;
+        margin-top: 0.5em;
+    }
+
+    header div h2{
+        font-weight: 500;
+    }
+
+    header div h3{
+        font-weight: 300;
+    }
+
+}
