@@ -26,11 +26,6 @@
         gap: 1em;
     }
 
-    .darkmode{
-        width:2em;
-        height: 2em;
-    }
-
 
 }
 
@@ -46,9 +41,6 @@
     justify-content:space-between;
     margin-bottom: 300px;
 }
-
-/* ----- FOOTER (C) --------- */
-
 
 
 /** ----- RESPONSIVE LAPTOP ----- **/
@@ -162,14 +154,5 @@
             font-size: 50px;
         }
     }
-
-    .projectsCard,
-    .languages,
-    .services,
-    .aboutMe,
-    .certifications {
-        margin-bottom: 0;
-    }
-
 }
 */

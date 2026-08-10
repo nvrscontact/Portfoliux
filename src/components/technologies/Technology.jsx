@@ -6,7 +6,7 @@ export default function Technology({ title, img, heightImg, category }) {
             <img src={img} alt="" style={{ width: heightImg || "60px" }} />
             <section>
                 <h4>{title}</h4>
-                <span>{category}</span>
+                <span className={styles.category}>{category}</span>
             </section>
         </div>
     )

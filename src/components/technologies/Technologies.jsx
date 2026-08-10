@@ -6,14 +6,13 @@ import HeaderBtn from "../subcomponents/headerBtn/HeaderBtn";
 export default function Technologies() {
     return (
         <div className={styles.technologies}>
-            <HeaderBtn title="Technologies" />
+            <HeaderBtn title="Expertise" />
             <section className={styles.technologies_section}>
                 <Technology title="HTML" img={"/img/html_logotipe.png"} category={"Frontend"} />
                 <Technology title="CSS" img={"/img/css_logotipe.png"} category={"Frontend"} />
                 <Technology title="Javascript" img={"/img/js_logotipe.png"} category={"Frontend"} />
                 <Technology title="React" img={"/img/react_logotipe.svg"} category={"Frontend"} />                
             </section>
-
 
             <section className={styles.technologies_section}>
                 <Technology title="Java" img={"/img/java_logotipe.svg"} category={"Backend"} />

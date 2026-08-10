@@ -19,8 +19,6 @@ function App() {
       <Navbar />
       
       <section>
-
-
         <Hero />
         <Projects />
 

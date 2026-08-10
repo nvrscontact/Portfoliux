@@ -1,4 +1,4 @@
-export default function ProjectCard({ top_date, bottom_date, title, date, paragraph, photo, l1, l1_name, l2, l2_name, l3, l3_name, link }) {
+export default function ProjectCard({ top_date, title, date, paragraph, photo, l1, l1_name, l2, l2_name, l3, l3_name, link }) {
     return (
         // se pasa el style porque sirve para aplicar estilos en lineas al elemento
         <div className="project-card">
@@ -28,9 +28,7 @@ export default function ProjectCard({ top_date, bottom_date, title, date, paragr
                     <img className="arrow_link" src="/img/arrow_link.svg" alt="" />
                 </a>
             </nav>
-            {/* 
-            <p className="project-card__date">{bottom_date}</p>
-            */}
+
         </div>
     )
 }

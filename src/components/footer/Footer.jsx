@@ -8,23 +8,23 @@ export default function Footer() {
                 <li>
                     <a href="https://www.linkedin.com/in/nvrscontact/">
                         View Profile
-                        <img src="/img/linkedin.svg" alt="" />
                     </a>
+                        <img src="/img/linkedin.svg" alt="" />
                 </li>
 
                 <li>
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nvrscontact@gmail.com"
                         target="_blank" rel="noopener noreferrer">
                         Send a messaage
-                        <img src="/img/email.svg" alt="" />
                     </a>
+                        <img src="/img/email.svg" alt="" />
                 </li>
 
                 <li>
                     <a href="https://github.com/nvrscontact">
                         View Projects
-                        <img src="/img/github.svg" alt="" />
                     </a>
+                        <img src="/img/github.svg" alt="" />
                 </li>
             </ul>
             <section>

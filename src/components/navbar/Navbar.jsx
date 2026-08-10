@@ -18,7 +18,6 @@ export default function Navbar() {
                     </a>
                 </nav>
                 <ul>
-                    <img className='darkmode' src="/img/moon.svg" alt="" />
                     <a href=""> <img src="/img/usa_flag.svg" alt="" /> </a>
                 </ul>
             </header>

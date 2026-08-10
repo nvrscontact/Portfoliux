@@ -7,15 +7,13 @@ export default function Projects() {
       <div>
         <ProjectCard
           title={"Artist"}
-          bottom_date={"January 2025"}
+          top_date={"January 2025"}
           photo={"/img/artistBackground.jpg"}
           paragraph={"Listen favorites albums on platforms with links, buy albums and view date of next conerts"}
           l1={"/img/react_logotipe.svg"}
           l1_name="React"
           l2={"/img/mysql_logotipe.png"}
           l2_name="MySQL"
-          l3={"/img/php_logotipe.svg"}
-          l3_name="PHP"
           link={"https://singerstore.vercel.app/"} />
       </div>
 
@@ -40,7 +38,7 @@ export default function Projects() {
       <div>
         <ProjectCard
           title={"Candix"}
-          bottom_date={"March 2025"}
+          top_date={"March 2025"}
           photo={"/img/candiesBackground.jpg"}
           paragraph={"Order cupcakes, view gallery of cakes and make purchases in your preffered language"}
           l1={"/img/react_logotipe.svg"} 

@@ -6,7 +6,6 @@
     line-height: 1.5;
     gap:2em;
     span{
-        color:rgba(47, 47, 47, 0.8);
-        font-weight: 400;
+        color:rgb(161, 161, 161);
     }
 }

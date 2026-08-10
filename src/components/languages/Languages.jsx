@@ -24,7 +24,7 @@ export default function Languages() {
                     <div>
                         <section>
                             <h3>English</h3>
-                            <span>B2 Level</span>
+                            <span>B1 Level</span>
                             <p>Meetings, daily communication,<br /> English documentation and technical resources.</p>
                         </section>
                         <button>
