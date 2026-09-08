@@ -1,9 +1,9 @@
 import Technology from "./Technology";
 
-import styles from "../technologies/Technologies.module.css"
+import styles from "./Expertise.module.css"
 import HeaderBtn from "../subcomponents/headerBtn/HeaderBtn";
 
-export default function Technologies() {
+export default function Expertise() {
     return (
         <div className={styles.technologies}>
             <HeaderBtn title="Expertise" />
@@ -16,7 +16,7 @@ export default function Technologies() {
 
             <section className={styles.technologies_section}>
                 <Technology title="Java" img={"/img/java_logotipe.svg"} category={"Backend"} />
-                <Technology title="MySQL" img={"/img/mysql_logotipe.png"} category={"Backend"} />
+                <Technology title="MySQL" img={"/img/mysql_logotipe.png"} category={"Database"} />
             </section>
 
             <section className={styles.technologies_section}>

@@ -4,24 +4,24 @@ export default function Navbar() {
     return (
         <div>
 
-            <header class="navbar-sec">
-                <a href=""></a>
+            <header className={styles.container}>
+
+                <span>Alonso Nuñez</span>
                 <nav class="">
-                    <a href="https://singerstore.vercel.app/">
-                        <img src="/img/song.svg" alt="" />
-                    </a>
                     <a href="https://svetlane.vercel.app">
                         <img src="/img/languages.svg" alt="" />
                     </a>
-                    <a href="https://candiesweb.vercel.app">
-                        <img src="/img/cupcake.svg" alt="" />
-                    </a>
                 </nav>
                 <ul>
-                    <a href=""> <img src="/img/usa_flag.svg" alt="" /> </a>
+                    <li>
+                        Based in Spain
+                    </li>
+                    <li>
+                    <a href=""> <img src="/img/spain_flag.svg" alt="" /> </a>
+                    </li>
                 </ul>
+                
             </header>
-            <section className="promotions_header__shadow"></section>
         </div>
 
     )

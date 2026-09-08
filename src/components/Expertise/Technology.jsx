@@ -1,4 +1,4 @@
-import styles from '../technologies/Technologies.module.css'
+import styles from './Expertise.module.css'
 
 export default function Technology({ title, img, heightImg, category }) {
     return (

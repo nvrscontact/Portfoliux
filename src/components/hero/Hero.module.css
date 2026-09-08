@@ -7,24 +7,9 @@
  position:relative;
 }
 
-.bgVideo{
-    width: 100%;
-    height: 40em;
-    object-fit: cover;
-}
-
-.hero::after{
-    content:"";
-    inset:0;
-    position:absolute;
-    background-color: rgb(0, 0, 0,0.3);
-}
-
 
 
 .heroSection {
-  position: absolute;
-  inset:0;
   display:flex;
   margin-top: 6em;
   align-items: center;
@@ -34,9 +19,8 @@
     h1 {
         backdrop-filter: blur(4px);
         font-weight: 600;
-        font-size: 4rem;
-        letter-spacing: -4px;
-        color: rgb(226, 226, 226);
+        font-size: 4.5rem;
+        letter-spacing: -5px;
         text-align: center;
         width: fit-content;
         padding: 10px;
@@ -46,9 +30,34 @@
 }
 
 .paragraph{
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(0, 0, 0,.8);
     width: 100%;
     color:white;
     text-align: center;
-    padding:1em;
+    padding:.7em;
+    font-size: 15px;
+}
+
+
+.whiteBasic {
+    background: linear-gradient(120deg, #c9c9c9, #c9c9c9, #2d2d2d, #2d2d2d, #c9c9c9, #c9c9c9);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+    
+
+
+.buttons{
+    display:flex;
+    gap:.5em;
+    margin-top: 1em;
+    span{
+        background-color: rgba(0,0,0,0.5);
+        padding:.6em 1em;
+        border-radius: .5em;
+        color:white;
+
+    }
 }

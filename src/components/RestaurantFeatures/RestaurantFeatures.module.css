@@ -1,0 +1,20 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+    margin:auto auto;
+
+    p{
+        font-size: 1.8em;
+        margin-bottom: .4em;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+
+    background: linear-gradient(80deg, #b3b3b3, #b3b3b3, #2d2d2d, #2d2d2d, #b3b3b3, #b3b3b3);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}

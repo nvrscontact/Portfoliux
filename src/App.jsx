@@ -1,15 +1,15 @@
 import './styles/App.css'
 import About from './components/about/About'
-import Projects from './components/Projects'
-import Text from './components/Text'
 import Footer from './components/footer/Footer'
 import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
-import Technologies from './components/technologies/Technologies'
+import Expertise from './components/Expertise/Expertise'
 import Languages from './components/languages/Languages'
-import Mockup from './components/mockup/Mockup'
+import SvetlaneProject from './components/SvetlaneProject/SvetlaneProject'
 import Experience from './components/experience/Experience'
 import Certifications from './components/certifications/Certifications'
+import RestaurantMockup from './components/RestaurantMockup/RestaurantMockup'
+import RestaurantFeatures from './components/RestaurantFeatures/RestaurantFeatures'
 
 function App() {
 
@@ -17,29 +17,29 @@ function App() {
   return (
     <>
       <Navbar />
-      
+
       <section>
         <Hero />
-        <Projects />
 
         <section className='homepage-two-columns'>
-          <Technologies />
+          <Expertise />
           <About />
         </section>
 
         <section className='homepage-two-columns'>
-          <Mockup/>
+          <SvetlaneProject />
           <Languages />
         </section>
 
         <section className='homepage-two-columns'>
-
           <Certifications />
           <Experience />
         </section>
 
-        <section className='special_phrases commitment_order'><Text title={"Commitment"} /></section>
-        <section className='special_phrases focus_order'><Text title={"Focus"} /></section>
+        <section className='homepage-two-columns'>
+          <RestaurantFeatures/>
+          <RestaurantMockup />
+        </section>
 
       </section>
       <Footer />

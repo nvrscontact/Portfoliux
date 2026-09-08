@@ -6,6 +6,14 @@
 
 }
 
+@font-face {
+  font-family: 'GT Super';
+  src: url('../assets/fonts/GT-Super.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
 :root{
     --text-primary: #432c2c;
 }
@@ -22,6 +30,12 @@ body{
     }
 }
 
+.homepage-two-columns {
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 300px;
+}
+
 /* RELUCIENT (ST) --------- */
 
 
@@ -36,25 +50,12 @@ body{
 }
 
 
-/* Focused text */ 
-.bigText {
-    text-align: center;
-    margin-bottom: 160px;
-    display:none;
-
-    h1 {
-        font-weight: 100;
-    }
-}
-
-
-
 
 /* background con el tipo de gradiente, la inclinacion y los colores
    el tamaño para que tenga mas variedad de colores en la transición y para que se adhiera al texto backgroud-clip*/
 
 .animated_white_basic {
-    background: linear-gradient(30deg, #525252, #525252, #525252, #525252, #ffffff, #ffffff, #525252, #525252, #525252, #525252);
+    background: linear-gradient(30deg, #202020, #202020, #bfbfbf, #202020, #202020);
     background-size: 200% 100%;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -62,14 +63,3 @@ body{
     animation: moveGradient 5s linear infinite;
 }
 
-.special_relucient {
-    background: linear-gradient(45deg, #151515, #151515, #151515, #151515, #a7a7a7, #151515, #151515, #151515, #151515);
-    background-size: 200% 100%;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    animation: moveGradient 10s linear infinite;
-    padding-right:4px;
-}
-
-    

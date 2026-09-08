@@ -28,8 +28,7 @@ export default function Footer() {
                 </li>
             </ul>
             <section>
-                <p>Create customer satisfaction that leads to sales,
-                    if you want to grow your online audience <br /> and increase your visibility, contact me and let's develop your idea for attract more customers.</p>
+                <p>If you want to grow your online audience and increase your visibility,  <br /> contact me and let's develop your idea for attract more customers.</p>
                 <span>© Copyright 2026 Portfoliux</span>
             </section>
         </footer>
