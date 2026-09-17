@@ -1,12 +1,15 @@
 .certificationsContainer {
-    text-align: end;
+    max-width: 30rem;
 
     header {
         display: flex;
         align-items: start;
-        justify-content: end;
         gap: 1em;
         margin-bottom: 1em;
+        background-color: rgb(47, 47, 47);
+        color: rgb(201, 201, 201);
+        border: 1px solid rgb(0, 0, 0, 0.9);
+        padding: 1rem;
     }
 
     header img {
@@ -15,12 +18,14 @@
         margin-top: 0.5em;
     }
 
-    header div h2 {
+    header div h1 {
         font-weight: 500;
+        font-size: var(--font-lg);
     }
 
-    header div h3 {
+    header div h2 {
         font-weight: 300;
+        font-size: var(--font-md);
     }
 
 }

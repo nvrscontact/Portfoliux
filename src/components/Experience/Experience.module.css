@@ -1,0 +1,34 @@
+.certificationsContainer {
+    text-align: end;
+    max-width: 30rem;
+
+    header {
+        display: flex;
+        align-items: start;
+        justify-content: end;
+        background-color: rgb(47, 47, 47);
+        border: 1px solid rgb(0, 0, 0, 0.9);
+
+        padding: 1rem;
+        color: rgb(201, 201, 201);
+        gap: 1em;
+        margin-bottom: 1em;
+    }
+
+    header img {
+        width: 2em;
+        height: 2em;
+        margin-top: 0.5em;
+    }
+
+    header div h1 {
+        font-weight: 500;
+        font-size: var(--font-lg);
+    }
+
+    header div h2 {
+        font-weight: 300;
+        font-size: var(--font-md);
+    }
+
+}

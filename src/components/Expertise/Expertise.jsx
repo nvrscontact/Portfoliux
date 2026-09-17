@@ -11,7 +11,7 @@ export default function Expertise() {
                 <Technology title="HTML" img={"/img/html_logotipe.png"} category={"Frontend"} />
                 <Technology title="CSS" img={"/img/css_logotipe.png"} category={"Frontend"} />
                 <Technology title="Javascript" img={"/img/js_logotipe.png"} category={"Frontend"} />
-                <Technology title="React" img={"/img/react_logotipe.svg"} category={"Frontend"} />                
+                <Technology title="React" img={"/img/react_logotipe.svg"} category={"Frontend"} />
             </section>
 
             <section className={styles.technologies_section}>
@@ -22,6 +22,8 @@ export default function Expertise() {
             <section className={styles.technologies_section}>
                 <Technology title="GIT" img={"/img/git_logotipe.png"} />
                 <Technology title="Wordpress" img={"/img/wordpress.svg"} category={"CMS"} />
+                <Technology title="Slack" img={"/img/slack.svg"} category={"Workspace"} />
+
             </section>
 
         </div>

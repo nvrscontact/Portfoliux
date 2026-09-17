@@ -1,11 +1,11 @@
-.container{
-    display:flex;
+.container {
+    display: flex;
     flex-direction: column;
-    gap:2em;
-    margin:auto auto;
+    gap: 2em;
+    margin: auto auto;
 
-    p{
-        font-size: 1.8em;
+    p {
+        font-size: var(--font-lg);
         margin-bottom: .4em;
         font-weight: 600;
         letter-spacing: -1px;
@@ -17,4 +17,12 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
+}
+
+
+
+@media (max-width:768px) {
+    .container {
+        margin: 0 1rem;
+    }
 }

@@ -3,11 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 5rem;
-    background-color: rgb(35, 32, 32);
+    padding: 1rem 5rem;
     color: rgb(255, 255, 255, 0.7);
     background-color: #0a0a0a;
-    
+    font-size: var(--font-sm);
+    font-weight: 300;
+
     nav {
         display: flex;
         justify-content: center;
@@ -27,4 +28,11 @@
     }
 
 
+}
+
+@media(max-width:768px){
+
+    .container{
+        padding: 1rem 1rem;
+    }
 }

@@ -7,17 +7,17 @@ export default function Certifications() {
     return (
         <div className={styles.certificationsContainer}>
             <HeaderBtn title={"Certifications"} />
-            <section className="">
+            <section>
 
                 <article>
                     <header>
                         <img src="/img/spain_flag.svg" alt="" />
                         <div>
-                            <h2>EACE — 2025</h2>
-                            <h3>Business English</h3>
+                            <h1>EACE — 2025</h1>
+                            <h2>Business English</h2>
                         </div>
                     </header>
-                    <p>Learning about work vocabulary,<br /> email professionals, daily work vocabulary.</p>
+                    <p>Learning about work vocabulary, email professionals, daily work vocabulary.</p>
                 </article>
 
             </section>

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: 'GT Super';
+    src: url('../assets/fonts/GT-Super.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+:root {
+    --text-primary: #432c2c;
+
+    --font-sm: 1rem;
+    --font-md: 1.2rem;
+    --font-lg: 2rem;
+    --font-xl: 2rem;
+    --font-2xl: 4.5rem;
+}
+
+
+
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    color: rgb(40, 40, 40);
+    background-color: #e7e7e7;
+
+    a {
+        color: black;
+        text-decoration: none;
+    }
+}
+
+
+
+.twoColumns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 300px;
+}
+
+
+@media (max-width:768px) {
+    :root {
+        --font-sm: 0.8rem;
+        --font-md: 1rem;
+        --font-lg: 1.5rem;
+        --font-xl: 2rem;
+        --font-2xl: 3rem;
+    }
+
+    .twoColumns {
+        display: flex;
+        flex-direction: column;
+        margin:0 1rem;
+        margin-bottom: 10rem;
+        gap:10rem;
+    }
+}

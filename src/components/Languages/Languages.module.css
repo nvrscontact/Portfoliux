@@ -1,74 +1,85 @@
-.languages{
+.languages {
 
-    ul{
+    ul {
         list-style: none;
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: end;
         justify-content: end;
     }
 
-    li{
+    li {
         margin-bottom: 2em;
         text-align: end;
-        display:flex;
-        gap:1em;
+        display: flex;
+        gap: 1em;
     }
 
-    li div{
-        display:flex;
+    li div {
+        display: flex;
         flex-direction: column;
         align-items: end;
         margin-bottom: 1em;
-        gap:1em;
+        gap: 1em;
     }
 
-    li div span{
-        font-size: 1.2em;
+    li div span {
+        font-size: var(--font-md);
         font-weight: 500;
-        color:rgb(112, 112, 112);
+        color: rgb(112, 112, 112);
     }
 
-    section p{
+    section p {
         margin-top: 0.5em;
-        font-size: 1.1em;
-        color:rgba(0, 0, 0, 0.7);
+        font-size: var(--font-sm);
+        color: rgba(0, 0, 0, 0.7);
     }
 
-    li div section h3{
-        font-size: 2em;
+    li div section h3 {
+        font-size: var(--font-lg);
         font-weight: 500;
         letter-spacing: -1px;
     }
 
-    .flag{
+    .flag {
         width: 2.5em;
         height: 2.5em;
         margin-top: 10px;
     }
 
-    button{
+    button {
         background-color: none;
-        border:none;
-        border:1px solid rgb(0, 0, 0,0.4);
-        background-color: rgb(0, 0, 0,0.8);
+        border: none;
+        border: 1px solid rgb(0, 0, 0, 0.4);
+        background-color: rgb(0, 0, 0, 0.7);
         padding: 14px 26px;
         margin-left: 3em;
         width: fit-content;
     }
 
-    a{
-        color:white;
-        display:flex;
+    a {
+        color: white;
+        display: flex;
         align-items: center;
-        font-size: 1.3em;
+        font-size: var(--font-sm);
         letter-spacing: -1px;
 
     }
 
-    button img{
+    button img {
         width: 25px;
         height: 24px;
         margin-left: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .languages {
+
+        
+        button {
+            padding: 7px 12px;
+        }
+
     }
 }

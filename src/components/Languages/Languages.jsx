@@ -25,7 +25,6 @@ export default function Languages() {
                         <section>
                             <h3>English</h3>
                             <span>B1 Level</span>
-                            <p>Meetings, daily communication,<br /> English documentation and technical resources.</p>
                         </section>
                         <button>
                             <a href="/utils/English.pdf"> View English CV<img src="/img/arrow_link.svg" alt="" /> </a>

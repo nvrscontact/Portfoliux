@@ -5,8 +5,10 @@
     text-align: end;
     line-height: 1.5;
     gap:2em;
-    font-size: 1.2em;
+    font-size: var(--font-md);
     letter-spacing: -1px;
+
+    
     span{
         color:rgb(161, 161, 161);
     }

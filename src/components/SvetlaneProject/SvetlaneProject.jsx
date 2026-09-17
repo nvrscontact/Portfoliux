@@ -10,33 +10,33 @@ export default function SvetlaneProject() {
     <div className={style.mockup}>
       <img className={style.imgMockup} src="/img/mockup.png" alt="Mockup" />
 
-      <section>
+      <section className={style.infoCard}>
 
-        <div className={style.header}>
+        <header>
 
-          <header>
+          <section>
             <div>
-              <a href="https://svetlane.vercel.app"><h1 className="animated_white_basic">Svetlane</h1>
-              </a>
-
+              <h1 className={style.wordAnimated}><a href="https://svetlane.vercel.app">Svetlane</a></h1>
               <span>App</span>
             </div>
-            <p>2026 • Language Learning </p>
-          </header>
 
-          <div className={style.technologies}>
+            <h2>2026 • Language Learning </h2>
+          </section>
+
+
+          <section className={style.technologies}>
             <img src={react} alt="" />
             <img src={mysql} alt="" />
             <img src={java} alt="" />
-          </div>
-        </div>
-
+          </section>
+        </header>
 
         <p>Designed a modular architecture that separates business logic, UI components, API communications,
           making the application easier to scale and maintain while supporting AI functionalities such as OpenAI. </p>
+
+
+
       </section>
-
-
     </div>
   )
 }

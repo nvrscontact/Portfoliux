@@ -11,12 +11,12 @@ export default function Experience({ }) {
                 <article>
                     <header>
                         <div>
-                            <h2>Kebes — 2026</h2>
-                            <h3>1 month • Internships</h3>
+                            <h1>Kebes — 2026</h1>
+                            <h2>1 month • Internships</h2>
                         </div>
                         <img src="/img/spain_flag.svg" alt="" />
                     </header>
-                    <p>Designing and deploying Wordpress web pages <br /> on cPanel and using Astra Pro plugin.</p>
+                    <p>Designing and deploying Wordpress web pages on cPanel and using Astra Pro plugin.</p>
                 </article>
 
             </section>
