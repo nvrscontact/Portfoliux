@@ -17,6 +17,7 @@
 :root {
     --text-primary: #432c2c;
 
+    --font-xs: 0.8rem;
     --font-sm: 1rem;
     --font-md: 1.2rem;
     --font-lg: 2rem;
@@ -50,6 +51,7 @@ body {
 
 @media (max-width:768px) {
     :root {
+        --font-xs: 0.6rem;
         --font-sm: 0.8rem;
         --font-md: 1rem;
         --font-lg: 1.5rem;
@@ -60,8 +62,8 @@ body {
     .twoColumns {
         display: flex;
         flex-direction: column;
-        margin:0 1rem;
+        margin: 0 1rem;
         margin-bottom: 10rem;
-        gap:10rem;
+        gap: 10rem;
     }
 }

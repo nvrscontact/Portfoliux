@@ -9,24 +9,23 @@ export default function RestaurantMockup() {
     <div className={style.mockup}>
       <img className={style.imgMockup} src="/img/mockup.png" alt="Mockup" />
 
-      <section>
+      <section className={style.infoCard}>
 
-        <div className={style.header}>
+        <header>
 
-          <header>
+          <section>
             <div>
-              <a><h1>Rosetti's Rest</h1>
-              </a>
+              <h1><a>Rosetti's Rest</a></h1>
             </div>
             <p>2026 • Restaurant </p>
-          </header>
+          </section>
 
-          <div className={style.technologies}>
+          <section className={style.technologies}>
             <img src={woocommerce} alt="" />
             <img src={wordpress} alt="" />
 
-          </div>
-        </div>
+          </section>
+        </header>
 
 
         <p>Designed a modular architecture that separates business logic, UI components, API communications,

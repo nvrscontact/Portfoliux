@@ -28,4 +28,8 @@
         font-size: var(--font-md);
     }
 
+    p{
+        font-size: var(--font-md);
+    }
+
 }

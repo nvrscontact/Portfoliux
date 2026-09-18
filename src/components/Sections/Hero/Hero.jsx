@@ -6,9 +6,12 @@ export default function Hero() {
             <p className={styles.paragraph}>Let's develop your idea.</p>
 
             <section className={styles.heroSection}>
-                <h1 className={styles.whiteBasic}>Websites with a <br /> visually
-                    <span > harmonious</span>
-                    <br /> <span>design</span> that your <br /> customers <i><span>love</span> </i></h1>
+                <h1 className={styles.whiteBasic}>
+                    Websites that <br />
+                    look beautiful <br />
+                    and turns visitors <br />
+                    into customers
+                    </h1>
             </section>
 
             <section className={styles.aditionalInfo}>
