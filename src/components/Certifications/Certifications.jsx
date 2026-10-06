@@ -13,8 +13,8 @@ export default function Certifications() {
                     <header>
                         <img src="/img/spain_flag.svg" alt="" />
                         <div>
-                            <h1>EACE — 2025</h1>
-                            <h2>Business English</h2>
+                            <h2>Business English - EACE</h2>
+                            <h3>2025 • Alicante </h3>
                         </div>
                     </header>
                     <p>Learning about work vocabulary, email professionals, daily work vocabulary.</p>

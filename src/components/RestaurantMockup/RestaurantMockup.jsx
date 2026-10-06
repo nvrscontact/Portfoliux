@@ -15,7 +15,7 @@ export default function RestaurantMockup() {
 
           <section>
             <div>
-              <h1><a>Rosetti's Rest</a></h1>
+              <h1 className={style.wordAnimated}><a>Rosetti's Rest</a></h1>
             </div>
             <p>2026 • Restaurant </p>
           </section>

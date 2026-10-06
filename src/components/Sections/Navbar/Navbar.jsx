@@ -14,7 +14,7 @@ export default function Navbar() {
                 </nav>
                 <ul>
                     <li>
-                        Spain
+                        Spain, Alicante
                     </li>
                     <li>
                     <a href=""> <img src="/img/spain_flag.svg" alt="" /> </a>

@@ -1,7 +1,7 @@
 import React from 'react'
 import react from '../../../public/img/react_logotipe.svg'
 import mysql from '../../../public/img/mysql_logotipe.png'
-import java from '../../../public/img/java_logotipe.svg'
+import springBoot from '../../../public/img/SpringBoot.svg'
 
 import style from './SvetlaneProject.module.css';
 
@@ -25,9 +25,9 @@ export default function SvetlaneProject() {
 
 
           <section className={style.technologies}>
+            <img src={springBoot} alt="" />
             <img src={react} alt="" />
             <img src={mysql} alt="" />
-            <img src={java} alt="" />
           </section>
         </header>
 

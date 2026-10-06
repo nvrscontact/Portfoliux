@@ -6,11 +6,9 @@
         display: flex;
         align-items: start;
         justify-content: end;
-        background-color: rgb(47, 47, 47);
-        border: 1px solid rgb(0, 0, 0, 0.9);
-
         padding: 1rem;
-        color: rgb(201, 201, 201);
+        border-bottom: 1px solid rgb(0, 0, 0, 0.9);
+        color:rgb(62, 61, 61);
         gap: 1em;
         margin-bottom: 1em;
     }
@@ -21,14 +19,16 @@
         margin-top: 0.5em;
     }
 
-    header div h1 {
+    header div h2 {
         font-weight: 500;
-        font-size: var(--font-lg);
+        font-size: var(--font-md);
+        margin-bottom: .3em;
+        color:black;
     }
 
-    header div h2 {
-        font-weight: 300;
-        font-size: var(--font-md);
+    header div h3 {
+        font-weight: 400;
+        font-size: var(--font-sm);
     }
 
        p{

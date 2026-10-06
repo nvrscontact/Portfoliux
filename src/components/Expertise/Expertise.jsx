@@ -9,18 +9,20 @@ export default function Expertise() {
             <HeaderBtn title="Expertise" />
             <section className={styles.technologies_section}>
                 <Technology title="HTML" img={"/img/html_logotipe.png"} category={"Frontend"} />
-                <Technology title="CSS" img={"/img/css_logotipe.png"} category={"Frontend"} />
                 <Technology title="Javascript" img={"/img/js_logotipe.png"} category={"Frontend"} />
-                <Technology title="React" img={"/img/react_logotipe.svg"} category={"Frontend"} />
+                <Technology title="React" img={"/img/react_logotipe.svg"} category={"Framework"} />
+                <Technology title="TailwindCSS" img={"/img/tailwindcss.png"} category={"Frontend"} />
             </section>
 
             <section className={styles.technologies_section}>
+                <Technology title="MySQL" img={"/img/mysql_logotipe.png"} category={"DB"} />
                 <Technology title="Java" img={"/img/java_logotipe.svg"} category={"Backend"} />
-                <Technology title="MySQL" img={"/img/mysql_logotipe.png"} category={"Database"} />
+                <Technology title="Spring Boot" img={"/img/SpringBoot.svg"} category={"Framework"} />
+
             </section>
 
             <section className={styles.technologies_section}>
-                <Technology title="GIT" img={"/img/git_logotipe.png"} />
+                <Technology title="GIT" category={"Workspace"} img={"/img/git_logotipe.png"} />
                 <Technology title="Wordpress" img={"/img/wordpress.svg"} category={"CMS"} />
                 <Technology title="Slack" img={"/img/slack.svg"} category={"Workspace"} />
 

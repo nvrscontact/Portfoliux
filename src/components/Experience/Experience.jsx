@@ -11,8 +11,8 @@ export default function Experience({ }) {
                 <article>
                     <header>
                         <div>
-                            <h1>Kebes — 2026</h1>
-                            <h2>1 month • Internships</h2>
+                            <h2>Frontend Developer - Kebes</h2>
+                            <h3>2026 • Internships, Alicante.</h3>
                         </div>
                         <img src="/img/spain_flag.svg" alt="" />
                     </header>
