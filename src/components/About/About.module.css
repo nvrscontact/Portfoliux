@@ -1,15 +1,20 @@
-.aboutMe{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: end;
-    line-height: 1.5;
-    gap:2em;
-    font-size: var(--font-md);
-    letter-spacing: -1px;
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
-    
-    span{
-        color:rgb(161, 161, 161);
-    }
+  line-height: 1.5;
+  font-size: var(--font-md);
+  letter-spacing: -1px;
+
+  span {
+    color: rgb(161, 161, 161);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: end;
+  }
 }

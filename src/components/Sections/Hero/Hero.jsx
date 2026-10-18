@@ -3,7 +3,10 @@ import styles from './Hero.module.css'
 export default function Hero() {
     return (
         <div className={styles.hero}>
-            <p className={styles.paragraph}>Let's develop your idea.</p>
+            <p className={styles.paragraph}>    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nvrscontact@gmail.com"
+                    target="_blank" rel="noopener noreferrer">
+                    nvrscontact@gmail.com
+                </a></p>
 
             <section className={styles.heroSection}>
                 <h1 className={styles.whiteBasic}>
@@ -16,7 +19,9 @@ export default function Hero() {
 
             <section className={styles.aditionalInfo}>
                 <span>AI Integration</span>
+                ·
                 <span>Full-Stack Apps</span>
+                ·
                 <span>UX Sleek</span>
             </section>
 

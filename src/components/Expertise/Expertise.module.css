@@ -27,17 +27,32 @@
 
 
 
+/* Columns will have space that it's content need instead of use all container width*/
 .technologies {
 
     .technologies_section {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 1px;
+        grid-template-columns: repeat(4,max-content);
         margin-bottom: 2em;
     }
 
     div {
         display: flex;
+    }
+
+    h3{
+        display:flex;
+        align-items: center;
+        gap:1em;
+        font-weight: 300;
+        margin-bottom: .5em;
+        width: 100%;
+    }
+
+    h3 span{
+        flex:1;
+        height: 1px;
+        border-top: 1px solid rgb(36, 36, 36,.4);
     }
 }
 

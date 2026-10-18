@@ -31,8 +31,9 @@ export default function SvetlaneProject() {
           </section>
         </header>
 
-        <p>Designed a modular architecture that separates business logic, UI components, API communications,
-          making the application easier to scale and maintain while supporting AI functionalities such as OpenAI. </p>
+        <p>Designed a modular architecture that separates business logic, UI components, API communications, 
+          <span> making the application easier to scale and maintain while supporting AI functionalities such as OpenAI. </span>
+          </p>
 
 
 

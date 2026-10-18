@@ -1,39 +1,45 @@
-
-import HeaderBtn from "../subcomponents/headerBtn/HeaderBtn"
-import styles from "./Languages.module.css"
+import HeaderBtn from "../subcomponents/headerBtn/HeaderBtn";
+import styles from "./Languages.module.css";
 
 export default function Languages() {
-    return (
-        <div className={styles.languages}>
-            <HeaderBtn title={"Languages"} />
-            <ul>
-                <li>
-                    <div>
-                        <section>
-                            <h3>Spanish</h3>
-                            <span>Native Speaker</span>
-                        </section>
-                        <button>
-                            <a href="/utils/Spanish.pdf">Ver CV Español <img src="/img/arrow_link.svg" alt="" />  </a>
-                        </button>
-                    </div>
-                    <img className={styles.flag} src="/img/spain_flag.svg" alt="" />
-                </li>
+  return (
+    <div className={styles.languages}>
+      <HeaderBtn title={"Languages"} />
 
-                <li>
-                    <div>
-                        <section>
-                            <h3>English</h3>
-                            <span>B1 Level</span>
-                        </section>
-                        <button>
-                            <a href="/utils/English.pdf"> View English CV<img src="/img/arrow_link.svg" alt="" /> </a>
-                        </button>
-                    </div>
-                    <img className={styles.flag} src="/img/usa_flag.svg" alt="" />
-                </li>
-            </ul>
+      <article>
+        <section>
+          <img className={styles.flag} src="/img/spain_flag.svg" alt="" />
+          <h2>
+            <p></p> Spanish <span>Native</span>
+          </h2>
+        </section>
+        <button>
+          <a href="/utils/2026 Spanish CV - Alonso Nuñez.pdf">
+            CV Español <img src="/img/Document.svg" alt="" />{" "}
+          </a>
+        </button>
+      </article>
 
-        </div>
-    )
+      <article>
+        <section>
+          <img className={styles.flag} src="/img/usa_flag.svg" alt="" />
+          <h2>
+            <p></p> English <span>B2</span>
+          </h2>
+        </section>
+        <button>
+          <a href="/utils/2026 English CV - Alonso Nuñez.pdf">
+            English CV <img src="/img/Document.svg" alt="" />{" "}
+          </a>
+        </button>
+      </article>
+    </div>
+  );
+}
+
+{
+  /* 
+  
+
+*/
 }
